@@ -1,0 +1,8 @@
+.nextUiNavbar header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: inherit;
+    height: 100%;
+    padding: 3rem 0;
+}
