@@ -6,12 +6,18 @@ import {
   NavbarItem,
 } from "@nextui-org/navbar";
 import { Link } from "@nextui-org/link";
-import { link as linkStyles } from "@nextui-org/theme";
 import NextLink from "next/link";
-import clsx from "clsx";
-import { Linkedin, Instagram, Github } from "@styled-icons/bootstrap";
+import {
+  Linkedin,
+  Instagram,
+  Github,
+  PersonFill,
+  Tools,
+} from "@styled-icons/bootstrap";
 import { Tabs, Tab } from "@nextui-org/tabs";
 import { EmojiEvents, Home, Work } from "@styled-icons/material";
+import clsx from "clsx";
+import { link as linkStyles } from "@nextui-org/theme";
 
 import { siteConfig } from "@/config/site";
 import { ThemeSwitch } from "@/components/theme-switch";
@@ -20,6 +26,15 @@ import { Logo } from "@/components/icons";
 import "./styles.css";
 
 export const Navbar = () => {
+  const handleSelectionChange = (key: string) => {
+    const element = document.querySelector(`[id="${key}"]`);
+
+    console.log("🚀 ~ handleSelectionChange ~ element:", element);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <NextUINavbar
       className="nextUiNavbar z-10 fixed left-8 top-1/2 transform -translate-y-1/2 h-3/4 w-20 inline-block outline rounded-large"
@@ -37,28 +52,30 @@ export const Navbar = () => {
           color={"primary"}
           isVertical={true}
           variant="bordered"
+          onSelectionChange={(key) => handleSelectionChange(key.toString())}
         >
           {siteConfig.navItems.map((item) => (
             <Tab
-              key={item.label}
+              key={item.href}
               title={
-                <NavbarItem key={item.href}>
-                  <NextLink
-                    className={clsx(
-                      linkStyles({ color: "foreground" }),
-                      "data-[active=true]:text-primary data-[active=true]:font-medium",
-                    )}
-                    color="foreground"
-                    href={item.href}
-                  >
-                    {item.icon == "EmojiEvents" ? (
-                      <EmojiEvents className="w-8 h-8" />
-                    ) : item.icon == "Home" ? (
-                      <Home className="w-8 h-8" />
-                    ) : item.icon == "Work" ? (
-                      <Work className="w-8 h-8" />
-                    ) : null}
-                  </NextLink>
+                <NavbarItem
+                  key={item.href}
+                  className={clsx(
+                    linkStyles({ color: "foreground" }),
+                    "data-[active=true]:text-primary data-[active=true]:font-medium",
+                  )}
+                >
+                  {item.icon == "EmojiEvents" ? (
+                    <EmojiEvents className="w-8 h-8" />
+                  ) : item.icon == "Home" ? (
+                    <Home className="w-8 h-8" />
+                  ) : item.icon == "Work" ? (
+                    <Work className="w-8 h-8" />
+                  ) : item.icon == "PersonFill" ? (
+                    <PersonFill className="w-8 h-8" />
+                  ) : item.icon == "Tools" ? (
+                    <Tools className="w-6 h-8" />
+                  ) : null}
                 </NavbarItem>
               }
             />
