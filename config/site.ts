@@ -6,33 +6,33 @@ export const siteConfig = {
   navItems: [
     {
       label: "Introduction",
-      href: "/",
-      iconPath: "",
+      href: "#introduction",
+      icon: "Home",
     },
     {
       label: "My Projects",
-      href: "/docs",
-      iconPath: "",
+      href: "#projects",
+      icon: "Work",
     },
     {
       label: "My Certifications",
-      href: "/pricing",
-      iconPath: "",
+      href: "#awards",
+      icon: "EmojiEvents",
     },
     {
       label: "About me",
-      href: "/blog",
-      iconPath: "",
+      href: "#about",
+      icon: "",
     },
     {
       label: "My Skills",
-      href: "/about",
-      iconPath: "",
+      href: "#skills",
+      icon: "",
     },
     {
       label: "Contact",
-      href: "/about",
-      iconPath: "",
+      href: "#contact",
+      icon: "",
     },
   ],
   navMenuItems: [
@@ -73,9 +73,10 @@ export const siteConfig = {
     github: "https://github.com/andrepozzan",
     linkedin: "https://www.linkedin.com/in/andrepozzan/",
     instagram: "https://www.instagram.com/andrepozzan.eng/",
-    twitter: "https://twitter.com/getnextui",
+    twitter: "https://www.linkedin.com/in/andrepozzan/",
     docs: "https://nextui.org",
     discord: "https://discord.gg/9b6yyZKmH4",
     sponsor: "https://patreon.com/jrgarciadev",
+    email: "hire-me@andrepozzan.eng.br",
   },
 };
