@@ -1,0 +1,30 @@
+blue navy: #000080
+
+blue navy +2: #0101CB
+
+blue navy +4: #2E2EF6
+
+==> Pallete from earth
+
+gray: #42525f
+
+dark blue: #111e2e
+
+light blue-gray: #69879c
+
+super light blue: #b7d1e6
+
+light blue: #84aecc
+
+https://colorpalettes.earth/p/093f7a1620
+
+==> Logo White theme
+3.5
+Dark Blue:           #1d2b3c
+Light Blue:          #5983a6
+Background:          #ffffff
+
+==> Logo Dark theme
+2
+Ultra light Blue:   #e3eff9
+Light blue:         #b4d1e6

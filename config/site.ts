@@ -32,7 +32,7 @@ export const siteConfig = {
     {
       label: "Contact",
       href: "contact",
-      icon: "",
+      icon: "TelephoneFill",
     },
   ],
   navMenuItems: [

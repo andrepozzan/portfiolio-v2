@@ -2,7 +2,7 @@ import { title } from "@/components/primitives";
 
 export default function Home() {
   return (
-    <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-1 h-full m-96">
+    <section className="">
       <h1 className={(title(), "mb-96")} id="introduction">
         Home
       </h1>

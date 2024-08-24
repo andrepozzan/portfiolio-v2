@@ -13,6 +13,7 @@ import {
   Github,
   PersonFill,
   Tools,
+  TelephoneFill,
 } from "@styled-icons/bootstrap";
 import { Tabs, Tab } from "@nextui-org/tabs";
 import { EmojiEvents, Home, Work } from "@styled-icons/material";
@@ -21,7 +22,6 @@ import { link as linkStyles } from "@nextui-org/theme";
 
 import { siteConfig } from "@/config/site";
 import { ThemeSwitch } from "@/components/theme-switch";
-import { Logo } from "@/components/icons";
 
 import "./styles.css";
 
@@ -37,21 +37,25 @@ export const Navbar = () => {
 
   return (
     <NextUINavbar
-      className="nextUiNavbar z-10 fixed left-8 top-1/2 transform -translate-y-1/2 h-3/4 w-20 inline-block outline rounded-large"
+      className="nextUiNavbar z-10 fixed left-8 top-1/2 transform -translate-y-1/2 h-3/4 w-20 inline-block rounded-large"
       maxWidth="xl"
     >
       <NavbarBrand as="li" className="grow-0">
-        <NextLink href="/">
-          <Logo />
-        </NextLink>
+        <NextLink href="/"><div className="nextUINavbar__logo w-12 h-10"></div></NextLink>
       </NavbarBrand>
       <ul className="lg:flex gap-6 justify-start flex flex-col">
         <Tabs
           aria-label="Tabs colors"
-          className="gap-6"
+          classNames={{
+            tabList: "gap-4 border-divider",
+            cursor: "w-full bg-[#5496ff]",
+
+            tabContent: "group-data-[selected=true]:text-[#2E2EF6]",
+          }}
           color={"primary"}
           isVertical={true}
-          variant="bordered"
+          size="md"
+          variant="light"
           onSelectionChange={(key) => handleSelectionChange(key.toString())}
         >
           {siteConfig.navItems.map((item) => (
@@ -65,17 +69,21 @@ export const Navbar = () => {
                     "data-[active=true]:text-primary data-[active=true]:font-medium",
                   )}
                 >
-                  {item.icon == "EmojiEvents" ? (
-                    <EmojiEvents className="w-8 h-8" />
-                  ) : item.icon == "Home" ? (
-                    <Home className="w-8 h-8" />
-                  ) : item.icon == "Work" ? (
-                    <Work className="w-8 h-8" />
-                  ) : item.icon == "PersonFill" ? (
-                    <PersonFill className="w-8 h-8" />
-                  ) : item.icon == "Tools" ? (
-                    <Tools className="w-6 h-8" />
-                  ) : null}
+                  <div className="nextUINavbar__icon w-8 h-8">
+                    {item.icon == "EmojiEvents" ? (
+                      <EmojiEvents />
+                    ) : item.icon == "Home" ? (
+                      <Home />
+                    ) : item.icon == "Work" ? (
+                      <Work />
+                    ) : item.icon == "PersonFill" ? (
+                      <PersonFill />
+                    ) : item.icon == "Tools" ? (
+                      <Tools className="w-6" />
+                    ) : item.icon == "TelephoneFill" ? (
+                      <TelephoneFill className="w-6" />
+                    ) : null}
+                  </div>
                 </NavbarItem>
               }
             />

@@ -1,7 +1,41 @@
+
 .nextUiNavbar header {
     display: flex;
     flex-direction: column;
     width: inherit;
     height: 100%;
     padding: 3rem 0;
+}
+
+.nextUiNavbar.rounded-large {
+    border-radius: 1.8rem;
+}
+
+.light .nextUiNavbar {
+    background: rgba(255, 255, 255, 0.6);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.dark .nextUiNavbar  {
+    background: rgba(0, 0, 0, 0.4);
+    box-shadow: 0 4px 30px rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+
+}
+
+.light .nextUINavbar__icon {
+    color: #102031;
+}
+
+.nextUINavbar__logo {
+    background-size: contain;
+}
+
+.light .nextUINavbar__logo {
+    background-image: url("/aplogo-profile-navbar.svg");
+}
+
+.dark .nextUINavbar__logo {
+    background-image: url("/aplogo-profile-dark-navbar.svg");
 }
