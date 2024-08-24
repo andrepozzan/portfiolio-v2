@@ -28,14 +28,14 @@
     color: #102031;
 }
 
-.nextUINavbar__logo {
-    background-size: contain;
-}
-
 .light .nextUINavbar__logo {
     background-image: url("/aplogo-profile-navbar.svg");
 }
 
 .dark .nextUINavbar__logo {
     background-image: url("/aplogo-profile-dark-navbar.svg");
+}
+
+Tabs {
+    background: red;
 }

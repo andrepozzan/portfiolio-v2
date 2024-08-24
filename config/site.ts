@@ -6,32 +6,32 @@ export const siteConfig = {
   navItems: [
     {
       label: "Introduction",
-      href: "introduction",
+      id: "introduction",
       icon: "Home",
     },
     {
       label: "My Projects",
-      href: "projects",
+      id: "projects",
       icon: "Work",
     },
     {
       label: "My Certifications",
-      href: "awards",
+      id: "awards",
       icon: "EmojiEvents",
     },
     {
       label: "About me",
-      href: "about",
+      id: "about",
       icon: "PersonFill",
     },
     {
       label: "My Skills ans Tools",
-      href: "skills",
+      id: "skills",
       icon: "Tools",
     },
     {
       label: "Contact",
-      href: "contact",
+      id: "contact",
       icon: "TelephoneFill",
     },
   ],

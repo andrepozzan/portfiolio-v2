@@ -22,11 +22,13 @@ module.exports = {
         colors: {
           background: '#e3eff9',
           foreground: '#000',
+          navbarCursor: '#84aecc',
         }
       },
       dark: {
         colors: {
           background: '#010810',
+          navbarCursor: '#396C90',
         }
       }
     }

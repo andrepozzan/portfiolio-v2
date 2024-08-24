@@ -29,7 +29,6 @@ export const Navbar = () => {
   const handleSelectionChange = (key: string) => {
     const element = document.querySelector(`[id="${key}"]`);
 
-    console.log("🚀 ~ handleSelectionChange ~ element:", element);
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
     }
@@ -41,16 +40,16 @@ export const Navbar = () => {
       maxWidth="xl"
     >
       <NavbarBrand as="li" className="grow-0">
-        <NextLink href="/"><div className="nextUINavbar__logo w-12 h-10"></div></NextLink>
+        <NextLink href="/">
+          <div className="nextUINavbar__logo w-12 h-10 bg-contain" />
+        </NextLink>
       </NavbarBrand>
       <ul className="lg:flex gap-6 justify-start flex flex-col">
         <Tabs
           aria-label="Tabs colors"
           classNames={{
             tabList: "gap-4 border-divider",
-            cursor: "w-full bg-[#5496ff]",
-
-            tabContent: "group-data-[selected=true]:text-[#2E2EF6]",
+            cursor: "w-full bg-navbarCursor",
           }}
           color={"primary"}
           isVertical={true}
@@ -60,10 +59,10 @@ export const Navbar = () => {
         >
           {siteConfig.navItems.map((item) => (
             <Tab
-              key={item.href}
+              key={item.id}
               title={
                 <NavbarItem
-                  key={item.href}
+                  key={item.id}
                   className={clsx(
                     linkStyles({ color: "foreground" }),
                     "data-[active=true]:text-primary data-[active=true]:font-medium",
@@ -79,9 +78,9 @@ export const Navbar = () => {
                     ) : item.icon == "PersonFill" ? (
                       <PersonFill />
                     ) : item.icon == "Tools" ? (
-                      <Tools className="w-6" />
+                      <Tools className="w-6 h-6" />
                     ) : item.icon == "TelephoneFill" ? (
-                      <TelephoneFill className="w-6" />
+                      <TelephoneFill className="w-6 h-6" />
                     ) : null}
                   </div>
                 </NavbarItem>
