@@ -1,0 +1,20 @@
+.light .introduction__logo {
+    background-image: url("/aplogo-profile.svg");
+}
+
+.dark .introduction__logo {
+    background-image: url("/aplogo-profile-dark.svg");
+}
+
+.introduction__logo {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.introduction__profile-picture {
+    background-image: url("/rounded-hexagon.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
