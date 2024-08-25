@@ -14,7 +14,11 @@
 
 .introduction__profile-picture {
     background-image: url("/rounded-hexagon.svg");
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.introduction__profile-picture img {
+    max-height: 90vh;
 }

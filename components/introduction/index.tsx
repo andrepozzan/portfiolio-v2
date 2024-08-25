@@ -38,7 +38,7 @@ export default function Introduction() {
       <div className="introduction__profile-picture w-full flex justify-center flex-grow">
         <img
           alt="Foto de perfil de André Corso Pozzan"
-          className="max-h-screen"
+          className=""
           src="/andre-transparent.png"
         />
       </div>
