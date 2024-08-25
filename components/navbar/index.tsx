@@ -36,11 +36,11 @@ export const Navbar = () => {
 
   return (
     <NextUINavbar
-      className="nextUiNavbar z-10 fixed left-8 top-1/2 transform -translate-y-1/2 h-3/4 w-20 inline-block rounded-large"
+      className="nextUiNavbar fixed left-8 top-1/2 transform -translate-y-1/2 h-3/4 w-20 inline-block rounded-large z-50"
       maxWidth="xl"
     >
       <NavbarBrand as="li" className="grow-0">
-        <NextLink href="/">
+        <NextLink href="#introduction">
           <div className="nextUINavbar__logo w-12 h-10 bg-contain" />
         </NextLink>
       </NavbarBrand>

@@ -1,6 +1,8 @@
 import { Button } from "@nextui-org/button";
 import Link from "next/link";
+import { Image } from "@nextui-org/image";
 
+// eslint-disable-next-line import/order
 import { title } from "@/components/primitives";
 
 import "./styles.css";
@@ -8,7 +10,10 @@ import { siteConfig } from "@/config/site";
 
 export default function Introduction() {
   return (
-    <section className="h-screen flex items-center w-full" id="introduction">
+    <section
+      className="flex flex-col md:flex-row justify-center items-center w-full"
+      id="introduction"
+    >
       <div className="w-3/4">
         <h1 className={title()}>Cursando </h1>
         <div className={title({ color: "yellow" })}>
@@ -36,7 +41,8 @@ export default function Introduction() {
         <div className="introduction__logo w-80 h-80 mt-10 rounded-3xl" />
       </div>
       <div className="introduction__profile-picture w-full flex justify-center flex-grow">
-        <img
+        <Image
+          isBlurred
           alt="Foto de perfil de André Corso Pozzan"
           className=""
           src="/andre-transparent.png"

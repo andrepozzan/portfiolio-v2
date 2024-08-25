@@ -4,13 +4,23 @@
 
 - [x] Navbar development
 - [ ] Navbar responsive(open/close)
+- [ ] Navbar tab active in current section
+
 - [x] Introduction section
 - [ ] Add animations on introduction
+
+- [ ] Transitions components
+
 - [ ] Projects section
+
 - [ ] Awards section
+
 - [ ] About me section
+
 - [ ] My skills section
+
 - [ ] Contact section
+
 - [ ] Publish the project
 
 ## Technologies Used
