@@ -1,24 +1,69 @@
 .light .introduction__logo {
-    background-image: url("/aplogo-profile.svg");
+  background-image: url("/aplogo-profile.svg");
 }
 
 .dark .introduction__logo {
-    background-image: url("/aplogo-profile-dark.svg");
+  background-image: url("/aplogo-profile-dark.svg");
 }
 
 .introduction__logo {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .introduction__profile-picture {
-    background-image: url("/rounded-hexagon.svg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  background-image: url("/rounded-hexagon.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .introduction__profile-picture img {
-    max-height: 90vh;
+  max-height: 90vh;
+}
+
+.introduction__background-overlay {
+  z-index: 10;
+  position: relative;
+}
+
+.introduction__background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100vw;
+  height: 90vh;
+  object-fit: cover;
+}
+
+.introduction__background-video--light {
+  opacity: 0.5;
+}
+
+.introduction__background-video--dark {
+  opacity: 0.2;
+}
+
+.introduction__video-gradient {
+  width: 100vw;
+  height: 90vh;
+  position: absolute;
+  background: linear-gradient(
+    0deg,
+    hsl(var(--nextui-background)) 30%,
+    #ff000000 90%
+  );
+  z-index: 2;
+  top: 0;
+  left: 0;
+}
+
+.light .introduction__background-video--dark {
+  display: none;
+}
+
+.dark .introduction__background-video--light {
+  display: none;
 }
