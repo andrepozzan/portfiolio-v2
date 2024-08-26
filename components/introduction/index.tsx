@@ -1,5 +1,4 @@
 import { Button } from "@nextui-org/button";
-import Link from "next/link";
 import { Image } from "@nextui-org/image";
 
 // eslint-disable-next-line import/order
@@ -32,12 +31,16 @@ export default function Introduction() {
           projetos acadêmicos e extracurriculares que me permitiram aplicar e
           expandir meus conhecimentos teóricos na prática.
         </p>
-        <Button className="mt-4" color="primary" variant="shadow">
-          <Link href="#projects">Meus projetos</Link>
-        </Button>
-        <Button className="mt-4 ml-4" color="primary" variant="bordered">
-          <a href={"mailto:" + siteConfig.links.email}>Entre em contato</a>
-        </Button>
+        <a href="#projects">
+          <Button className="mt-4" color="primary" variant="shadow">
+            Meus projetos
+          </Button>
+        </a>
+        <a href={"mailto:" + siteConfig.links.email}>
+          <Button className="mt-4 ml-4" color="primary" variant="bordered">
+            Entre em contato
+          </Button>
+        </a>
         <div className="introduction__logo w-80 h-80 mt-10 rounded-3xl" />
       </div>
       <div className="introduction__profile-picture w-full flex justify-center flex-grow">

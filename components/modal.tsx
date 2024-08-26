@@ -11,10 +11,6 @@ import { Button } from "@nextui-org/button";
 export default function ModalComponent(myFunction: any) {
   const { isOpen, onOpen, onOpenChange } = useDisclosure();
 
-  myFunction = () => {
-    console.log("test");
-
-  };
 
   return (
     <Modal backdrop={"opaque"} isOpen={isOpen} onOpenChange={onOpenChange}>

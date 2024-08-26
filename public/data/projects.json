@@ -6,20 +6,20 @@
     "websiteLink": "https://www.google.com",
     "githubLink": "https://github.com",
     "linkedinLink": "https://www.linkedin.com",
-    "media": "https://images.unsplash.com/photo-1724649399943-5f50ea36200a?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "media": "https://user-images.githubusercontent.com/85946447/167709332-2d0d25c8-852b-477c-9e46-f4f53a2302b5.jpg",
     "buttonText": "Visit Website",
     "technologies": "html | css | javascript"
   },
   {
     "id": 2,
-    "title": "APSSE Website",
+    "title": "APSSE Web platform",
     "description": "Plataforma web para startup de agricultura de precisão",
     "websiteLink": "https://www.google.com",
     "githubLink": "https://github.com",
     "linkedinLink": "https://www.linkedin.com",
-    "media": "https://images.unsplash.com/photo-1720048170996-40507a45c720?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw2MXx8fGVufDB8fHx8fA%3D%3D",
+    "media": "https://images.unsplash.com/photo-1506399558188-acca6f8cbf41?q=80&w=1946&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "buttonText": "Visit Website",
-    "technologies": "html | css | javascript"
+    "technologies": "devops | strapi | reactjs&nextjs | postgreesql"
   },
   {
     "id": 3,
@@ -28,7 +28,7 @@
     "websiteLink": "https://www.example.com",
     "githubLink": "https://github.com",
     "linkedinLink": "https://www.linkedin.com",
-    "media": "https://user-images.githubusercontent.com/85946447/167709332-2d0d25c8-852b-477c-9e46-f4f53a2302b5.jpg",
+    "media": "https://images.unsplash.com/photo-1511447333015-45b65e60f6d5?q=80&w=2155&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "buttonText": "Visit Website",
     "technologies": "html | css | javascript"
   },
@@ -39,7 +39,7 @@
     "websiteLink": "https://www.example.com",
     "githubLink": "https://github.com",
     "linkedinLink": "https://www.linkedin.com",
-    "media": "https://nextui.org/images/card-example-6.jpeg",
+    "media": "https://images.unsplash.com/flagged/photo-1579274216947-86eaa4b00475?q=80&w=2127&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "buttonText": "Visit Website",
     "technologies": "html | css | javascript"
   }
