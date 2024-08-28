@@ -1,0 +1,11 @@
+
+
+.projects-modal__image {
+  transition: transform 5000ms !important;
+  overflow: hidden;
+ 
+}
+
+.projects-modal__image:hover {
+  transform: translateY(calc(-100% + 24rem));
+}

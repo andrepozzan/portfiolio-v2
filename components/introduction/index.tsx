@@ -31,24 +31,25 @@ export default function Introduction() {
           projetos acadêmicos e extracurriculares que me permitiram aplicar e
           expandir meus conhecimentos teóricos na prática.
         </p>
+
+        <div className="introduction__logo w-80 h-80 mt-5 rounded-3xl" />
         <a href="#projects">
-          <Button className="mt-4" color="primary" variant="shadow">
+          <Button className="mt-8" color="primary" variant="shadow">
             Meus projetos
           </Button>
         </a>
         <a href={"mailto:" + siteConfig.links.email}>
-          <Button className="mt-4 ml-4" color="primary" variant="bordered">
+          <Button className="mt-8 ml-4" color="primary" variant="bordered">
             Entre em contato
           </Button>
         </a>
-        <div className="introduction__logo w-80 h-80 mt-10 rounded-3xl" />
       </div>
       <div className="introduction__profile-picture w-full flex justify-center flex-grow">
         <Image
           isBlurred
           alt="Foto de perfil de André Corso Pozzan"
           className=""
-          src="/andre-transparent.png"
+          src="/assets/introduction/andre-transparent.png"
         />
       </div>
     </section>

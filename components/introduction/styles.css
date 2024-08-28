@@ -1,9 +1,9 @@
 .light .introduction__logo {
-  background-image: url("/aplogo-profile.svg");
+  background-image: url("/assets/logo/aplogo-profile.svg");
 }
 
 .dark .introduction__logo {
-  background-image: url("/aplogo-profile-dark.svg");
+  background-image: url("/assets/logo/aplogo-profile-dark.svg");
 }
 
 .introduction__logo {
@@ -13,7 +13,7 @@
 }
 
 .introduction__profile-picture {
-  background-image: url("/rounded-hexagon.svg");
+  background-image: url("/assets/background/rounded-hexagon.svg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

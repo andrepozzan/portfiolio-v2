@@ -11,7 +11,10 @@ export default function Home() {
         muted
         className="introduction__background-video introduction__background-video--dark"
       >
-        <source src="./introduction-background-video.mp4" type="video/mp4" />
+        <source
+          src="./assets/background/introduction-background-video.mp4"
+          type="video/mp4"
+        />
       </video>
       <video
         autoPlay
@@ -20,7 +23,7 @@ export default function Home() {
         className="introduction__background-video introduction__background-video--light"
       >
         <source
-          src="./introduction-background-video-white.mp4"
+          src="./assets/background/introduction-background-video-white.mp4"
           type="video/mp4"
         />
       </video>
