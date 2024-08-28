@@ -37,8 +37,8 @@
     "githubLink": "https://github.com/andrepozzan/apsse_technologies",
     "linkedinLink": "https://www.linkedin.com/company/apsse-tecnologies-ufpr",
     "imageLink": "https://images.unsplash.com/photo-1719932124314-8b6acaf60104?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "modalImageLink": "/assets/projects/modal-image/andrepozzan-github-io.png",
-    "videoLink": "",
+    "modalImageLink": "",
+    "videoLink": "https://www.youtube.com/embed/lyY1uE_-fcg?si=IYs_Yu93DbQwMRMc",
     "buttonText": "Visit Website",
     "technologies": "devops | strapi | reactjs&nextjs | postgreesql"
   },

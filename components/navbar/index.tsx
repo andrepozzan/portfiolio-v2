@@ -19,6 +19,7 @@ import { Tabs, Tab } from "@nextui-org/tabs";
 import { EmojiEvents, Home, Work } from "@styled-icons/material";
 import clsx from "clsx";
 import { link as linkStyles } from "@nextui-org/theme";
+import { useEffect, useState } from "react";
 
 import { siteConfig } from "@/config/site";
 import { ThemeSwitch } from "@/components/theme-switch";
@@ -33,6 +34,40 @@ export const Navbar = () => {
       element.scrollIntoView({ behavior: "smooth" });
     }
   };
+
+  const useSectionDetection = () => {
+    const [activeSection, setActiveSection] = useState<string | null>(null);
+
+    const handleScroll = () => {
+      const sections = document.querySelectorAll("section");
+      const windowHeight = window.innerHeight;
+      const scrollPosition = window.scrollY;
+
+      sections.forEach((section) => {
+        const sectionTop = section.offsetTop;
+        const sectionHeight = section.offsetHeight;
+
+        if (
+          scrollPosition >= sectionTop - windowHeight / 2 &&
+          scrollPosition < sectionTop + sectionHeight - windowHeight / 2
+        ) {
+          setActiveSection(section.id);
+        }
+      });
+    };
+
+    useEffect(() => {
+      window.addEventListener("scroll", handleScroll);
+
+      return () => {
+        window.removeEventListener("scroll", handleScroll);
+      };
+    }, []);
+
+    return activeSection;
+  };
+
+  const activeSection = useSectionDetection();
 
   return (
     <NextUINavbar
@@ -53,6 +88,7 @@ export const Navbar = () => {
           }}
           color={"primary"}
           isVertical={true}
+          selectedKey={activeSection}
           size="md"
           variant="light"
           onSelectionChange={(key) => handleSelectionChange(key.toString())}
