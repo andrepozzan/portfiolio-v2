@@ -1,3 +1,5 @@
+import { Chip } from "@nextui-org/chip";
+
 import Introduction from "@/components/introduction";
 import Projects from "@/components/projects";
 import SectionTransition from "@/components/sectionTransition";
@@ -31,7 +33,11 @@ export default function Home() {
       <div
         className="introduction__divider w-full left-0 opacity-50 h-24 bg-divider absolute shadow-2xl"
         style={{ top: "90vh" }}
-      />
+      >
+        <Chip className="textAnimation" color="primary" variant="dot">
+          André Corso Pozzan - Engenharia elétrica UFPR
+        </Chip>
+      </div>
       <div className="introduction__background-overlay">
         <Introduction />
         <SectionTransition />

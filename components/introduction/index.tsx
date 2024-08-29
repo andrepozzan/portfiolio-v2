@@ -14,12 +14,16 @@ export default function Introduction() {
       id="introduction"
     >
       <div className="w-3/4">
-        <h1 className={title()}>Cursando </h1>
-        <div className={title({ color: "yellow" })}>
-          ⚡Engenharia Elétrica⚡
-        </div>
-        <div className={title()}> na </div>
-        <div className={title({ color: "blue" })}>UFPR</div>
+        <h1 className=" ">
+          <div className={title({ color: "yellow" })}>
+            ⚡Engenharia Elétrica⚡
+          </div>
+          <br />
+          <div className="indent-12">
+            <div className={title({ size: "sm" })}>Discente na </div>
+            <div className={title({ color: "blue", size: "sm" })}>UFPR</div>
+          </div>
+        </h1>
         <p className="mt-4">
           Ingressei na universidade em fevereiro de 2024 e desde então tenho me
           dedicado a aprender e me desenvolver em diversas áreas, desde a

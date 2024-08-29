@@ -1,3 +1,9 @@
 .light .sectionTransition {
   color: #102031;
 }
+
+.dark .sectionTransition {
+  box-shadow:
+    -33px -33px 65px #000306,
+    33px 33px 65px #020d1a;
+}

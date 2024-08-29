@@ -9,6 +9,7 @@ import ModalComponent from "../projects-modal/index";
 import { title } from "@/components/primitives";
 
 import "./styles.css";
+import { Chip } from "@nextui-org/chip";
 
 export default function Projects() {
   const [projects, setProjects] = useState([]);
@@ -34,19 +35,43 @@ export default function Projects() {
     <section className="h-screen text-center " id="projects">
       <h1 className={title()}>Meus</h1>
       <h1 className={title({ color: "blue" })}> projetos</h1>
-      <ul className="flex justify-evenly flex-wrap items-center mt-10 gap-10 md:gap-5">
+      <ul className="flex justify-evenly flex-wrap items-center mt-10 gap-10 md:gap-8">
         {projects.map((project: ProjectProps) => {
           return (
             <Card
               key={project.id}
               isFooterBlurred
-              className="w-1/4 min-w-96 h-[350px] col-span-12 sm:col-span-5 projects__card shadow-purple-200"
+              className="min-w-96 h-[400px] col-span-12 sm:col-span-5 projects__card shadow-purple-200"
             >
-              <CardHeader className="pb-2 pt-2 px-4 flex-col items-start z-20 projects__card-header">
-                <small className="text-default-500 uppercase">
-                  {project.technologies}
-                </small>
-                <h4 className={title({ size: "ssm" })}>{project.title}</h4>
+              <CardHeader className="pb-2 pt-2 px-4 flex relative  justify-between items-start z-20 projects__card-header">
+                <div className="flex flex-col justify-between text-start w-full">
+                  <small className="text-default-500 uppercase">
+                    {project.technologies}
+                  </small>
+                  <h4 className={title({ size: "ssm" })}>{project.title}</h4>
+                </div>
+
+                <Chip
+                  className="text-tiny absolute right-2 top-20 shadow-small"
+                  color={
+                    project.status == "finished"
+                      ? "success"
+                      : project.status == "development"
+                        ? "warning"
+                        : "primary"
+                  }
+                  variant="flat"
+                >
+                  <strong>
+                    {project.status == "finished"
+                      ? "Finalizado"
+                      : project.status == "development"
+                        ? "Em desenvolvimento"
+                        : project.status == "prototype"
+                          ? "Protótipo"
+                          : "Em breve"}
+                  </strong>
+                </Chip>
               </CardHeader>
               <Image
                 isBlurred

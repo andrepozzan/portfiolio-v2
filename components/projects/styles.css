@@ -1,3 +1,7 @@
+.projects__card {
+  width: 30%;
+}
+
 .projects__card-header {
   transition: 200ms;
 }

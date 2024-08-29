@@ -11,7 +11,7 @@ export default function SectionTransition() {
   return (
     <>
       <div className="sectionTransition w-full outline rounded-lg p-10 outline-primary-100 mb-20 mt-36 outline-8 hover:outline-green-500 transition-all delay-100">
-        <ul className="flex justify-between  text-center align-top">
+        <ul className="flex justify-between flex-wrap text-center align-top">
           <li className=" p-4 flex flex-col justify-center items-center w-1/4">
             <PersonFill className="w-20 h-20" />
             <h3 className={title({ color: "yellow", size: "ssm" })}>

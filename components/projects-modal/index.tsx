@@ -14,6 +14,7 @@ import { BrowserOutline } from "@styled-icons/evaicons-outline";
 import { title } from "@/components/primitives";
 
 import "./styles.css";
+import { Chip } from "@nextui-org/chip";
 
 export default function ModalComponent(data: any) {
   const { isOpen, onOpen, onOpenChange } = useDisclosure();
@@ -45,6 +46,7 @@ export default function ModalComponent(data: any) {
                   <small className="text-default-500 uppercase">
                     {data.project.technologies}
                   </small>
+
                   <h2 className={title({ size: "sm" })}>
                     {data.project.title}
                   </h2>
@@ -52,6 +54,27 @@ export default function ModalComponent(data: any) {
                     {data.project.summary}
                   </p>
                 </div>
+                <Chip
+                  className="text-tiny shadow-small"
+                  color={
+                    data.project.status == "finished"
+                      ? "success"
+                      : data.project.status == "development"
+                        ? "warning"
+                        : "primary"
+                  }
+                  variant="flat"
+                >
+                  <strong>
+                    {data.project.status == "finished"
+                      ? "Finalizado"
+                      : data.project.status == "development"
+                        ? "Em desenvolvimento"
+                        : data.project.status == "prototype"
+                          ? "Protótipo"
+                          : "Em breve"}
+                  </strong>
+                </Chip>
                 <div className="text-center grow max-w-96">
                   <h4 className="mb-4">Links do projeto:</h4>
 
