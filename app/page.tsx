@@ -3,6 +3,10 @@ import { Chip } from "@nextui-org/chip";
 import Introduction from "@/components/introduction";
 import Projects from "@/components/projects";
 import SectionTransition from "@/components/sectionTransition";
+import Awards from "@/components/awards";
+import About from "@/components/about";
+import Skills from "@/components/skills";
+import Contact from "@/components/contact";
 
 export default function Home() {
   return (
@@ -42,6 +46,10 @@ export default function Home() {
         <Introduction />
         <SectionTransition />
         <Projects />
+        <Awards />
+        <About />
+        <Skills />
+        <Contact />
       </div>
     </>
   );

@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Moção de Aplausos",
+    "summary": "Moção de aplausos recebida da prefeitura de Guaraniaçu pela 18° colocação no campeonato brasileiro de xadrez",
+    "year": 2015,
+    "imageLink": "/assets/awards/mocao.png",
+    "validationLink": "https://www.cmguaraniacu.pr.gov.br/"
+  },
+  {
+    "title": "Best in Show2",
+    "summary": "The Best in Show award is given to the best overall website in the competition.",
+    "year": 2019,
+    "imageLink": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmarketplace.canva.com%2FEADzXyhIjg4%2F1%2F0%2F1600w%2Fcanva-certificado-de-workshop-a-azul-escuro-e-dourado-com-moldura-rendada-elegante-XeDDT6IEE20.jpg&f=1&nofb=1&ipt=2aa2809b170c8044903d4f2753a9cfca078e44a6897f3ad1f56f371d2fa61036&ipo=images",
+    "validationLink": "https://www.w3.org/standards/webdesign/accessibility"
+  },
+  {
+    "title": "Best in Show3",
+    "summary": "The Best in Show award is given to the best overall website in the competition.",
+    "year": 2019,
+    "imageLink": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fjosuelustosa.github.io%2Fformacao-alura-js-frontend%2Fassets%2Fimg%2Fcertificado-teste.png&f=1&nofb=1&ipt=0c4c010df2f7c2669d8e9059b270013e4f79599ffee059189a7284e815e8e132&ipo=images",
+    "validationLink": "https://www.w3.org/standards/webdesign/accessibility"
+  },
+  {
+    "title": "Best in Show4",
+    "summary": "The Best in Show award is given to the best overall website in the competition.",
+    "year": 2019,
+    "imageLink": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2Fmt5x5WMfCFY%2Fmaxresdefault.jpg&f=1&nofb=1&ipt=0cabd3a591a80c45caa6d6deebace070220c30b926c8a38b895c7ff649a4676b&ipo=images",
+    "validationLink": "https://www.w3.org/standards/webdesign/accessibility"
+  }
+]

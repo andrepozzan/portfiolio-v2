@@ -4,14 +4,14 @@
 
 - [x] Navbar development
 - [ ] Navbar responsive(open/close)
-- [ ] Navbar tab active in current section
+- [x] Navbar tab active in current section
 
 - [x] Introduction section
 - [ ] Add animations on introduction
 
-- [ ] Transitions components
+- [x] Transitions components
 
-- [ ] Projects section
+- [x] Projects section
 
 - [ ] Awards section
 

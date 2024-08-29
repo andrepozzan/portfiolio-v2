@@ -1,0 +1,8 @@
+
+.awards__card:hover .awards__card-image {
+  transform: scale(1.5) translateY(-10px);
+}
+
+.awards__card:hover .awards__card-button {
+  background: hsl(var(--nextui-primary));
+}

@@ -4,7 +4,7 @@ blue navy +2: #0101CB
 
 blue navy +4: #2E2EF6
 
-==> Pallete from earth
+==> Palette from earth
 
 gray: #42525f
 

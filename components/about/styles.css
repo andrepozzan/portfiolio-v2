@@ -1,0 +1,9 @@
+.about__photos-grid {
+  max-width: 45vw;
+
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: repeat(4, auto);
+
+  gap: 1rem;
+}

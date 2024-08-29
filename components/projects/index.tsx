@@ -3,13 +3,13 @@
 import { Card, CardHeader, CardFooter } from "@nextui-org/card";
 import { Image } from "@nextui-org/image";
 import { useEffect, useState } from "react";
+import { Chip } from "@nextui-org/chip";
 
 import ModalComponent from "../projects-modal/index";
 
 import { title } from "@/components/primitives";
 
 import "./styles.css";
-import { Chip } from "@nextui-org/chip";
 
 export default function Projects() {
   const [projects, setProjects] = useState([]);
@@ -32,7 +32,7 @@ export default function Projects() {
   };
 
   return (
-    <section className="h-screen text-center " id="projects">
+    <section className="text-center " id="projects">
       <h1 className={title()}>Meus</h1>
       <h1 className={title({ color: "blue" })}> projetos</h1>
       <ul className="flex justify-evenly flex-wrap items-center mt-10 gap-10 md:gap-8">

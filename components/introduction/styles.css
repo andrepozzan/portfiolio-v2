@@ -81,13 +81,13 @@
 
   display: flex;
   align-items: center;
+
+  overflow: hidden;
 }
 
 .dark .introduction__divider {
   border: 1px solid rgba(0, 0, 0, 0.3);
   box-shadow: 0 4px 30px rgba(255, 255, 255, 0.15);
-
-  overflow: hidden;
 }
 
 .introduction__divider .textAnimation {
