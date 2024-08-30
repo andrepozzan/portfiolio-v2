@@ -40,7 +40,7 @@ export default function Awards() {
         {awards.map((award: AwardsProps) => {
           return (
             <Card
-              key={award.title}
+              key={award.title + award.year}
               isFooterBlurred
               className="w-1/4 h-[300px] col-span-12 sm:col-span-5 awards__card"
             >

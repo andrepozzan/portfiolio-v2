@@ -124,6 +124,11 @@ export default function About() {
               <h3 className={title({ size: "ssm", color: "yellow" })}>
                 Esportes
               </h3>
+              <p className="ml-4">
+                Participais de escolhas de treinamento da minha cidade em
+                Futebol de Campo e Futsal, depois, comecei a praticar Muay Thai
+                que em junho obtive minha primeira graduação.
+              </p>
             </li>
           </ul>
         </div>
