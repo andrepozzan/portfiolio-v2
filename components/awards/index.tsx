@@ -26,15 +26,14 @@ export default function Awards() {
     year: number;
     imageLink: string;
     validationLink: string;
+    textTheme: string;
   };
 
   return (
     <section className=" text-center mt-20" id="awards">
       <h1>
         <div className={title()}>Meus</div>
-        <div className={title({ color: "green" })}> Certificados </div>
-        <div className={title()}>e</div>
-        <div className={title({ color: "green" })}> Premiações</div>
+        <div className={title({ color: "green" })}> Certificados</div>
       </h1>
 
       <ul className="mt-20 flex justify-evenly flex-wrap gap-10">
@@ -54,7 +53,15 @@ export default function Awards() {
               />
               <CardFooter className=" absolute bottom-0 z-10 justify-between before:bg-white/10 border-white/20 border-1 overflow-hidden py-2  shadow-small ">
                 <div>
-                  <p className="text-white/80 text-tiny">
+                  <p
+                    className={
+                      (award.textTheme == "light"
+                        ? "text-white"
+                        : award.textTheme == "dark"
+                          ? "text-black"
+                          : "text-gray-400") + " text-tiny"
+                    }
+                  >
                     {award.title} - {award.year}
                   </p>
                 </div>

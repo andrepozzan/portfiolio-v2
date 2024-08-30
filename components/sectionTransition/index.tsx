@@ -29,7 +29,7 @@ export default function SectionTransition() {
               Universidade
             </h3>
             <p className="flex-grow">
-              Passei dos vestibulares da UFPR, Unioeste(Foz do Iguaçu) e
+              Passei nos vestibulares da UFPR, Unioeste(Foz do Iguaçu) e
               UTFPR(Pato Branco) para o curso de Engenharia elétrica e acabei
               optando por mudar de cidade e cursar na UFPR.
             </p>

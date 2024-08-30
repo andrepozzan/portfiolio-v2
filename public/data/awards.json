@@ -4,27 +4,314 @@
     "summary": "Moção de aplausos recebida da prefeitura de Guaraniaçu pela 18° colocação no campeonato brasileiro de xadrez",
     "year": 2015,
     "imageLink": "/assets/awards/mocao.png",
-    "validationLink": "https://www.cmguaraniacu.pr.gov.br/"
+    "validationLink": "https://www.cmguaraniacu.pr.gov.br/",
+    "textTheme": "light"
   },
   {
-    "title": "Best in Show2",
-    "summary": "The Best in Show award is given to the best overall website in the competition.",
-    "year": 2019,
-    "imageLink": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmarketplace.canva.com%2FEADzXyhIjg4%2F1%2F0%2F1600w%2Fcanva-certificado-de-workshop-a-azul-escuro-e-dourado-com-moldura-rendada-elegante-XeDDT6IEE20.jpg&f=1&nofb=1&ipt=2aa2809b170c8044903d4f2753a9cfca078e44a6897f3ad1f56f371d2fa61036&ipo=images",
-    "validationLink": "https://www.w3.org/standards/webdesign/accessibility"
+    "title": "Medalha de bronze OBMEP",
+    "summary": "Prêmio pelo desempenho na prova da OBMEP",
+    "year": 2018,
+    "imageLink": "/assets/awards/obmep-2018-diploma-medalha.jpeg",
+    "validationLink": "http://obmep.org.br/premiados.htm",
+    "textTheme": "dark"
   },
   {
-    "title": "Best in Show3",
-    "summary": "The Best in Show award is given to the best overall website in the competition.",
-    "year": 2019,
-    "imageLink": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fjosuelustosa.github.io%2Fformacao-alura-js-frontend%2Fassets%2Fimg%2Fcertificado-teste.png&f=1&nofb=1&ipt=0c4c010df2f7c2669d8e9059b270013e4f79599ffee059189a7284e815e8e132&ipo=images",
-    "validationLink": "https://www.w3.org/standards/webdesign/accessibility"
+    "title": "Medalha de bronze OBMEP",
+    "summary": "Homenagem pelo desempenho na prova da OBMEP",
+    "year": 2018,
+    "imageLink": "/assets/awards/obmep-2018-homenagem-medalha-bronze.jpeg",
+    "validationLink": "http://obmep.org.br/premiados.htm",
+    "textTheme": "dark"
   },
   {
-    "title": "Best in Show4",
-    "summary": "The Best in Show award is given to the best overall website in the competition.",
+    "title": "Menção honrosa OBMEP",
+    "summary": "Homenagem pelo desempenho na prova da OBMEP",
     "year": 2019,
-    "imageLink": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2Fmt5x5WMfCFY%2Fmaxresdefault.jpg&f=1&nofb=1&ipt=0cabd3a591a80c45caa6d6deebace070220c30b926c8a38b895c7ff649a4676b&ipo=images",
-    "validationLink": "https://www.w3.org/standards/webdesign/accessibility"
+    "imageLink": "/assets/awards/obmep-2019.jpeg",
+    "validationLink": "http://obmep.org.br/premiados.htm",
+    "textTheme": "dark"
+  },
+  {
+    "title": "Menção honrosa OBMEP",
+    "summary": "Homenagem pelo desempenho na prova da OBMEP",
+    "year": 2021,
+    "imageLink": "/assets/awards/obmep-2021.jpeg",
+    "validationLink": "http://obmep.org.br/premiados.htm",
+    "textTheme": "dark"
+  },
+  {
+    "title": "Menção honrosa OBMEP",
+    "summary": "Homenagem pelo desempenho na prova da OBMEP",
+    "year": 2022,
+    "imageLink": "/assets/awards/obmep-2022.jpeg",
+    "validationLink": "http://obmep.org.br/premiados.htm",
+    "textTheme": "dark"
+  },
+  {
+    "title": "Olimpíadas de História",
+    "summary": "Participação na ONHB(Olimpíada Nacional em História do Brasil)",
+    "year": 2023,
+    "imageLink": "/assets/awards/onhb-1.jpeg",
+    "validationLink": "https://onhb.com.br/certificados/ebc7e390a15aa1e",
+    "textTheme": "dark"
+  },
+
+  {
+    "title": "Menção honrosa Prova Paraná",
+    "summary": "Homenagem pelo desempenho na prova do Prova Paraná",
+    "year": 2022,
+    "imageLink": "/assets/awards/ppr-2022-1.jpeg",
+    "validationLink": "https://www.facebook.com/colegiodesembargadorantonio",
+    "textTheme": "dark"
+  },
+  {
+    "title": "1° lugar da turma Prova Paraná",
+    "summary": "Homenagem pelo desempenho na prova do Prova Paraná",
+    "year": 2022,
+    "imageLink": "/assets/awards/ppr-2022-2.jpeg",
+    "validationLink": "https://www.facebook.com/colegiodesembargadorantonio",
+    "textTheme": "dark"
+  },
+  {
+    "title": "8° lugar geral Prova Paraná",
+    "summary": "Homenagem pelo desempenho na prova do Prova Paraná",
+    "year": 2022,
+    "imageLink": "/assets/awards/ppr-2022-3.jpeg",
+    "validationLink": "https://www.facebook.com/colegiodesembargadorantonio",
+    "textTheme": "dark"
+  },
+  {
+    "title": "1° lugar da turma Prova Paraná",
+    "summary": "Homenagem pelo desempenho na prova do Prova Paraná",
+    "year": 2022,
+    "imageLink": "/assets/awards/ppr-2022-3-turma.jpeg",
+    "validationLink": "https://www.facebook.com/colegiodesembargadorantonio",
+    "textTheme": "dark"
+  },
+  {
+    "title": "1° lugar geral Prova Paraná",
+    "summary": "Homenagem pelo desempenho na prova do Prova Paraná",
+    "year": 2023,
+    "imageLink": "/assets/awards/ppr-2023-1-geral.jpeg",
+    "validationLink": "https://www.facebook.com/colegiodesembargadorantonio",
+    "textTheme": "dark"
+  },
+  {
+    "title": "1° lugar da turma Prova Paraná",
+    "summary": "Homenagem pelo desempenho na prova do Prova Paraná",
+    "year": 2023,
+    "imageLink": "/assets/awards/ppr-2023-1-turma.jpeg",
+    "validationLink": "https://www.facebook.com/colegiodesembargadorantonio",
+    "textTheme": "dark"
+  },
+  {
+    "title": "1° lugar da turma Prova Paraná",
+    "summary": "Homenagem pelo desempenho na prova do Prova Paraná",
+    "year": 2023,
+    "imageLink": "/assets/awards/ppr-2023-2-1-turma.jpeg",
+    "validationLink": "https://www.facebook.com/colegiodesembargadorantonio",
+    "textTheme": "dark"
+  },
+  {
+    "title": "Graduação branca ponta vermelha de Muay Thai",
+    "summary": "Exame de graduação da academia My King is Immortal - Curitiba",
+    "year": 2024,
+    "imageLink": "/assets/awards/muay-thai-ponta-vermelha.jpg",
+    "validationLink": "https://onhb.com.br/certificados/ebc7e390a15aa1e",
+    "textTheme": "dark"
+  },
+  {
+    "title": "Curso Animações com SVG",
+    "summary": "Curso realizado na plataforma Alura",
+    "year": 2021,
+    "imageLink": "/assets/awards/alura-curso-animacoes-svg.png",
+    "validationLink": "https://cursos.alura.com.br/certificate/andre-possan/svg-css-animacao",
+    "textTheme": "light"
+  },
+  {
+    "title": "Curso CSS Guia de estilos",
+    "summary": "Curso realizado na plataforma Alura",
+    "year": 2021,
+    "imageLink": "/assets/awards/alura-curso-guia-de-estilos.png",
+    "validationLink": "https://cursos.alura.com.br/user/andre-possan/course/guia-estilos-paginas-componentes/certificate",
+    "textTheme": "light"
+  },
+  {
+    "title": "Curso Bootstrap 4",
+    "summary": "Curso realizado na plataforma Alura",
+    "year": 2021,
+    "imageLink": "/assets/awards/alura-curso-bootstrap.png",
+    "validationLink": "https://cursos.alura.com.br/user/andre-possan/course/bootstrap-landing-page/certificate",
+    "textTheme": "light"
+  },
+  {
+    "title": "Curso Front-end projeto de conclusão",
+    "summary": "Curso realizado na plataforma Alura",
+    "year": 2021,
+    "imageLink": "/assets/awards/alura-curso-front-end.png",
+    "validationLink": "https://cursos.alura.com.br/user/andre-possan/course/projeto-carreira-front-end/certificate",
+    "textTheme": "light"
+  },
+  {
+    "title": "Curso Github: Portfólio digital",
+    "summary": "Curso realizado na plataforma Alura",
+    "year": 2022,
+    "imageLink": "/assets/awards/alura-curso-github.png",
+    "validationLink": "https://cursos.alura.com.br/user/andre-possan/course/github-criando-portfolio-digital/certificate",
+    "textTheme": "light"
+  },
+  {
+    "title": "Curso Arquitetura CSS",
+    "summary": "Curso realizado na plataforma Alura",
+    "year": 2022,
+    "imageLink": "/assets/awards/alura-curso-arquitetura-css.png",
+    "validationLink": "https://cursos.alura.com.br/certificate/0db1030f-27ba-45dd-bba4-261b9dbc775b?lang=pt_BR",
+    "textTheme": "light"
+  },
+
+  {
+    "title": "Curso CSS Grid",
+    "summary": "Curso realizado na plataforma Alura",
+    "year": 2022,
+    "imageLink": "/assets/awards/alura-curso-css-grid.png",
+    "validationLink": "https://cursos.alura.com.br/certificate/14fdac09-fb1f-403f-9c9c-c069c6197cd8?lang=pt_BR",
+    "textTheme": "light"
+  },
+  {
+    "title": "Curso Flex-box",
+    "summary": "Curso realizado na plataforma Alura",
+    "year": 2022,
+    "imageLink": "/assets/awards/alura-curso-flexbox.png",
+    "validationLink": "https://cursos.alura.com.br/certificate/c88933ac-31ff-45d2-b0c4-4b94570562d6?lang=pt_BR",
+    "textTheme": "light"
+  },
+  {
+    "title": "Curso Expressões regulares",
+    "summary": "Curso realizado na plataforma Alura",
+    "year": 2023,
+    "imageLink": "/assets/awards/alura-curso-expressoes-regulares.png",
+    "validationLink": "https://cursos.alura.com.br/certificate/7023daa6-410e-4b11-9028-fdfcde22be3c?lang=pt_BR",
+    "textTheme": "light"
+  },
+
+  {
+    "title": "Curso HTTP: A web por baixo dos panos",
+    "summary": "Curso realizado na plataforma Alura",
+    "year": 2023,
+    "imageLink": "/assets/awards/alura-curso-http.png",
+    "validationLink": "https://cursos.alura.com.br/certificate/47e9841d-00a8-4a2c-ad2e-7c948e62ef4a?lang=pt_BR",
+    "textTheme": "light"
+  },
+  {
+    "title": "Curso JavaScript a linguagem da web",
+    "summary": "Curso realizado na plataforma Alura",
+    "year": 2023,
+    "imageLink": "/assets/awards/alura-curso-js-1.png",
+    "validationLink": "https://cursos.alura.com.br/certificate/3e880cbf-ee4a-4ff4-ac4f-14f7aa08071a?lang=pt_BR",
+    "textTheme": "light"
+  },
+  {
+    "title": "Curso CRUD com Javascript assíncrono",
+    "summary": "Curso realizado na plataforma Alura",
+    "year": 2023,
+    "imageLink": "/assets/awards/alura-curso-js-crud.png",
+    "validationLink": "https://cursos.alura.com.br/certificate/6c0cf4e3-073f-401a-a5b7-0deaa916904a?lang=pt_BR",
+    "textTheme": "light"
+  },
+  {
+    "title": "Curso desenvolva um jogo e pratique lógica",
+    "summary": "Curso realizado na plataforma Alura",
+    "year": 2023,
+    "imageLink": "/assets/awards/alura-curso-js-jogo-1.png",
+    "validationLink": "https://cursos.alura.com.br/certificate/a43b6edf-52dc-4ab7-ad2c-b7388ea72eef?lang=pt_BR",
+    "textTheme": "light"
+  },
+  {
+    "title": "Curso JS lógica com desenhos, animações e um jogo",
+    "summary": "Curso realizado na plataforma Alura",
+    "year": 2023,
+    "imageLink": "/assets/awards/alura-curso-js-jogo-2.png",
+    "validationLink": "https://cursos.alura.com.br/certificate/a795cc3a-686a-45c5-aee9-090683d7274f?lang=pt_BR",
+    "textTheme": "light"
+  },
+  {
+    "title": "Curso JS comece em lógica com o jogo Pong",
+    "summary": "Curso realizado na plataforma Alura",
+    "year": 2023,
+    "imageLink": "/assets/awards/alura-curso-js-jogo-3.png",
+    "validationLink": "https://cursos.alura.com.br/certificate/fd17de49-05d6-4f22-a580-a6a5631832ab?lang=pt_BR",
+    "textTheme": "light"
+  },
+  {
+    "title": "Curso laços e listas com JavaScript",
+    "summary": "Curso realizado na plataforma Alura",
+    "year": 2023,
+    "imageLink": "/assets/awards/alura-curso-js-lacos-e-listas.png",
+    "validationLink": "https://cursos.alura.com.br/certificate/c6d41bfc-86e1-4ce0-88b0-3df091458273?lang=pt_BR",
+    "textTheme": "light"
+  },
+  {
+    "title": "Curso interfaces e Herança em Orientação a Objetos",
+    "summary": "Curso realizado na plataforma Alura",
+    "year": 2023,
+    "imageLink": "/assets/awards/alura-curso-js-objetos-1.png",
+    "validationLink": "https://cursos.alura.com.br/certificate/734b989d-cd8c-4302-a784-0e5b5f8c859c?lang=pt_BR",
+    "textTheme": "light"
+  },
+  {
+    "title": "Curso programando a Orientação a Objetos",
+    "summary": "Curso realizado na plataforma Alura",
+    "year": 2023,
+    "imageLink": "/assets/awards/alura-curso-js-objetos-2.png",
+    "validationLink": "https://cursos.alura.com.br/certificate/b56375dd-2a3c-4c99-9768-fde4b11140fb?lang=pt_BR",
+    "textTheme": "light"
+  },
+  {
+    "title": "Curso TypeScript evoluindo seu Javascript",
+    "summary": "Curso realizado na plataforma Alura",
+    "year": 2023,
+    "imageLink": "/assets/awards/alura-curso-typescript-1.png",
+    "validationLink": "https://cursos.alura.com.br/certificate/6f2788f2-dadb-4547-97aa-a2d699ce2915?lang=pt_BR",
+    "textTheme": "light"
+  },
+  {
+    "title": "Curso Layouts Responsivos",
+    "summary": "Curso realizado na plataforma Alura",
+    "year": 2022,
+    "imageLink": "/assets/awards/alura-curso-responsivo.png",
+    "validationLink": "https://cursos.alura.com.br/certificate/83099e58-2bae-4f1e-919f-2a2c658e9691?lang=pt_BR",
+    "textTheme": "light"
+  },
+  {
+    "title": "Formação HTML e CSS Alura",
+    "summary": "Formação realizada na plataforma Alura",
+    "year": 2022,
+    "imageLink": "/assets/awards/alura-formacao-html-css.png",
+    "validationLink": "https://cursos.alura.com.br/degree/certificate/ba6b651c-1726-4316-a713-6730b4c8fa17?lang=pt_BR",
+    "textTheme": "light"
+  },
+  {
+    "title": "Formação CSS: Aprofunde em Estilos",
+    "summary": "Formação realizada na plataforma Alura",
+    "year": 2022,
+    "imageLink": "/assets/awards/alura-formacao-estilos-css.png",
+    "validationLink": "https://cursos.alura.com.br/degree/certificate/ac50ce5a-ca5f-4380-8ad3-72861d8bfb61?lang=pt_BR",
+    "textTheme": "light"
+  },
+  {
+    "title": "Formação Aplicações Web Acessíveis",
+    "summary": "Formação realizada na plataforma Alura",
+    "year": 2022,
+    "imageLink": "/assets/awards/alura-formacao-acessibilidade.png",
+    "validationLink": "https://cursos.alura.com.br/degree/certificate/a3d03ba7-831d-482b-9313-6c665ec28efb?lang=pt_BR",
+    "textTheme": "light"
+  },
+  {
+    "title": "Formação Aplicações Web com Javascript",
+    "summary": "Formação realizada na plataforma Alura",
+    "year": 2022,
+    "imageLink": "/assets/awards/alura-formacao-javascript-na-web.png",
+    "validationLink": "https://cursos.alura.com.br/degree/certificate/0fb563ee-bcca-4d02-b3dd-2642c74b988b?lang=pt_BR",
+    "textTheme": "light"
   }
 ]

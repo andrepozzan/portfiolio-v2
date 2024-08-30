@@ -41,7 +41,9 @@ export default function AwardsModal(data: any) {
           {(onClose) => (
             <>
               <ModalHeader className="flex flex-col text-center">
-                <h2 className={title({ size: "sm" })}>{data.award.title}</h2>
+                <h2 className={title({ size: "sm" })}>
+                  {data.award.title} - {data.award.year}
+                </h2>
                 <p className="text-small text-default-500">
                   {data.award.summary}
                 </p>

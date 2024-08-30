@@ -30,6 +30,7 @@
 		"@react-aria/visually-hidden": "3.8.12",
 		"@styled-icons/bootstrap": "^10.47.0",
 		"@styled-icons/evaicons-outline": "^10.46.0",
+		"@styled-icons/fluentui-system-regular": "^10.47.0",
 		"@styled-icons/material": "^10.47.0",
 		"clsx": "2.1.1",
 		"framer-motion": "~11.1.1",
