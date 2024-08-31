@@ -7,3 +7,15 @@
 
   gap: 1rem;
 }
+
+.about__text-content {
+  max-width: 40rem;
+}
+
+.awards__list li {
+  margin-bottom: 0.6rem;
+}
+
+.awards__list-item {
+  width: 1.7rem;
+}

@@ -13,9 +13,9 @@
 
 - [x] Projects section
 
-- [ ] Awards section
+- [x] Awards section
 
-- [ ] About me section
+- [x] About me section
 
 - [ ] My skills section
 

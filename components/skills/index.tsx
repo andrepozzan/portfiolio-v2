@@ -1,10 +1,14 @@
+"use client";
+
+import { Github } from "@styled-icons/bootstrap";
+
 import { title } from "@/components/primitives";
 
 import "./styles.css";
 
 export default function Skills() {
   return (
-    <section className="h-screen text-center mt-20" id="skills">
+    <section className=" text-center mt-20" id="skills">
       <h1>
         <div className={title()}>Minhas</div>
         <div className={title({ color: "blue" })}> habilidades</div>
@@ -112,6 +116,12 @@ export default function Skills() {
               alt=""
               src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/inkscape/inkscape-original.svg"
             />
+            <img alt="" className="bigger" src="/assets/skills/kdenlive.svg" />
+
+            <img
+              alt=""
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg"
+            />
           </div>
         </li>
         <li className="col-start-1 row-start-2">
@@ -126,10 +136,24 @@ export default function Skills() {
               src="https://raw.githubusercontent.com/FreeCAD/FreeCAD/main/src/Gui/Icons/freecad.svg"
             />
             <img alt="" className="bigger" src="/assets/skills/autocad.svg" />
+            <img alt="" src="/assets/skills/librecad.png" />
           </div>
         </li>
         <li className="col-start-2 row-start-2">
-          <h3 className={title({ size: "ssm" })}>Gerenciamento de Projeto</h3>{" "}
+          <h3 className={title({ size: "ssm" })}>Gerenciamento de Projeto</h3>
+          <div className="flex justify-evenly items-center mt-8 skills__list-item">
+            <img
+              alt=""
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"
+            />
+
+            <Github className="w-12" />
+
+            <img
+              alt=""
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gitlab/gitlab-original.svg"
+            />
+          </div>
         </li>
         <li className="col-start-3 row-start-2">
           <h3 className={title({ size: "ssm" })}>Outros</h3>

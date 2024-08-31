@@ -16,7 +16,7 @@ export default function About() {
       </h1>
 
       <div className="flex justify-between mt-20 ">
-        <div className="about__text-content mr-20">
+        <div className="about__text-content">
           <p className="text-start mb-4">
             Sempre gostei de realizar diversas atividades desde a infância como
             a música, xadrez e esportes. Desde então, estava me dedicado aos
@@ -32,75 +32,75 @@ export default function About() {
               <h3 className={title({ size: "ssm", color: "green" })}>
                 Matemática
               </h3>
-              <ol className="text-start ml-4">
-                <h4>Premiações na OBMEP:</h4>
+              <ol className="text-start ml-4 awards__list">
+                <h4 className="mb-4">Premiações na OBMEP:</h4>
                 <li>2017 / Classificado para 2ª fase - nível 1</li>
                 <li>
-                  <Award className="w-5 text-amber-700" />
+                  <Award className="awards__list-item  text-amber-700" />
                   2018 / Medalha de bronze - nível 1
                 </li>
                 <li>
-                  <Certificate className="w-5 text-blue-500" /> 2019 / Menção
-                  honrosa - nível 2
+                  <Certificate className="awards__list-item text-blue-500" />{" "}
+                  2019 / Menção honrosa - nível 2
                 </li>
                 <li>2020 / Cancelada devido pandemia</li>
                 <li>
-                  <Certificate className="w-5 text-blue-500" /> 2021 / Menção
-                  honrosa - nível 3
+                  <Certificate className="awards__list-item text-blue-500" />{" "}
+                  2021 / Menção honrosa - nível 3
                 </li>
                 <li>
-                  <Certificate className="w-5 text-blue-500" /> 2022 / Menção
-                  honrosa - nível 3
+                  <Certificate className="awards__list-item text-blue-500" />{" "}
+                  2022 / Menção honrosa - nível 3
                 </li>
                 <li>
-                  <Certificate className="w-5 text-blue-500" /> 2023 / Menção
-                  honrosa - nível 3
+                  <Certificate className="awards__list-item text-blue-500" />{" "}
+                  2023 / Menção honrosa - nível 3
                 </li>
                 <li>
-                  <Award className="w-5 text-amber-700" />
+                  <Award className="awards__list-item text-amber-700" />
                   2023 / Medalha de bronze regional - nível 3
                 </li>
               </ol>
             </li>
             <li className="mb-8">
               <h3 className={title({ size: "ssm", color: "cyan" })}>Xadrez</h3>
-              <ol className="text-start ml-4">
-                <h4>Premiações xadrez:</h4>
+              <ol className="text-start ml-4 awards__list">
+                <h4 className="mb-4">Premiações xadrez:</h4>
                 <li>
-                  <Award className="w-5 text-gray-400" />
+                  <Award className="awards__list-item text-gray-400" />
                   2° lugar no primeiro torneio de xadrez em Guaraniaçu-Pr
                   19/07/2014
                 </li>
                 <li>
-                  <Award className="w-5 text-amber-900" />
+                  <Award className="awards__list-item text-amber-900" />
                   18° lugar campeonato
                   <strong className="text-green-500"> brasileiro</strong> de
                   xadrez escolar - São sebastião do Paraíso - MG - 2015
                 </li>
                 <li>
-                  <Award className="w-5 text-amber-900" />
+                  <Award className="awards__list-item text-amber-900" />
                   8° lugar no circuito
                   <strong className="text-blue-500"> paranaense</strong> de
                   xadrez rápido Piraí do Sul - PR - 2015
                 </li>
                 <li>
-                  <Award className="w-5 text-yellow-500" />
+                  <Award className="awards__list-item text-yellow-500" />
                   1° lugar no circuito de xadrez de Cascavel - 2015
                 </li>
                 <li>
-                  <Award className="w-5 text-amber-700" />
+                  <Award className="awards__list-item text-amber-700" />
                   3° lugar no campeonato
                   <strong className="text-blue-500"> paranaense</strong> de
                   xadrez - Foz do Iguaçu - PR - 2016
                 </li>
                 <li>
-                  <Award className="w-5 text-amber-900" />
+                  <Award className="awards__list-item text-amber-900" />
                   15° lugar campeonato
                   <strong className="text-green-500"> brasileiro</strong> de
                   xadrez escolar - 2016
                 </li>
                 <li>
-                  <Award className="w-5 text-amber-900" />
+                  <Award className="awards__list-item text-amber-900" />
                   4° lugar campeonato
                   <strong className="text-blue-500"> paranaense</strong> de
                   xadrez - Piraí do Sul - PR - 2017
@@ -118,16 +118,6 @@ export default function About() {
                 a participar de eventos com um grupo musical para apresentações
                 em casamentos. Também fiz parte da Orquestra Mirim de Viola
                 Caipira e me apresentei na Virada Cultural de Toledo em 2014.
-              </p>
-            </li>
-            <li className="mb-8">
-              <h3 className={title({ size: "ssm", color: "yellow" })}>
-                Esportes
-              </h3>
-              <p className="ml-4">
-                Participais de escolhas de treinamento da minha cidade em
-                Futebol de Campo e Futsal, depois, comecei a praticar Muay Thai
-                que em junho obtive minha primeira graduação.
               </p>
             </li>
           </ul>

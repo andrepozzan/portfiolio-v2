@@ -44,13 +44,13 @@ export default function Home() {
       </div>
       <div className="introduction__background-overlay">
         <Introduction />
-        <SectionTransition />
-        <Projects />
-        <Awards />
-        <About />
-        <Skills />
-        <Contact />
       </div>
+      <SectionTransition />
+      <Projects />
+      <Awards />
+      <About />
+      <Skills />
+      <Contact />
     </>
   );
 }

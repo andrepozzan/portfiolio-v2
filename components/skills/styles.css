@@ -9,10 +9,15 @@
   margin: 0.5rem 1rem;
   width: 3.5rem;
   height: 3rem;
+  transition: 200ms;
+}
+
+.skills__list-item img:hover {
+  transform: translateY(-10px);
 }
 
 .skills__list-item img.bigger {
-  width: 5rem;
+  width: 7rem;
 }
 
 .skills__list-item {
