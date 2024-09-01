@@ -1,6 +1,4 @@
 .about__photos-grid {
-  max-width: 40vw;
-
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
   grid-template-rows: repeat(5, auto);
@@ -18,4 +16,41 @@
 
 .awards__list-item {
   width: 1.7rem;
+}
+
+/* To copy */
+
+@media screen and (min-width: 0px) {
+  .about__photos-grid,
+  .about__text-content {
+    max-width: 95vw;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 375px) {
+}
+
+@media screen and (min-width: 425px) {
+}
+
+@media screen and (min-width: 768px) {
+  .about__photos-grid,
+  .about__text-content {
+    max-width: 80vw;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .about__photos-grid,
+  .about__text-content {
+    max-width: 70vw;
+  }
+}
+
+@media screen and (min-width: 1730px) {
+  .about__photos-grid,
+  .about__text-content {
+    max-width: 30vw;
+  }
 }

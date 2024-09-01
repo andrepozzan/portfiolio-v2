@@ -1,8 +1,48 @@
-
 .awards__card:hover .awards__card-image {
   transform: scale(1.5) translateY(-10px);
 }
 
 .awards__card:hover .awards__card-button {
   background: hsl(var(--nextui-primary));
+}
+
+.awards__card {
+  max-width: 25rem;
+  width: 90%;
+}
+
+.awards__list {
+ gap: 2rem;
+
+}
+
+/* To copy */
+
+@media screen and (min-width: 0px) {
+  .awards__list {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 375px) {
+}
+
+@media screen and (min-width: 425px) {
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 1200px) {
+  .awards__list {
+    max-width: 85%;
+  }
+}
+
+@media screen and (min-width: 1650px) {
+  .awards__list {
+    max-width: 100%;
+  }
 }

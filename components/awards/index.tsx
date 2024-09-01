@@ -36,7 +36,7 @@ export default function Awards() {
         <div className={title({ color: "green" })}> Certificados</div>
       </h1>
 
-      <ul className="mt-20 flex justify-evenly flex-wrap gap-10">
+      <ul className="awards__list mt-20 flex justify-evenly items-center flex-wrap ">
         {awards.map((award: AwardsProps) => {
           return (
             <Card

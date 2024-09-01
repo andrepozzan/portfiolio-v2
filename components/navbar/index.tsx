@@ -111,6 +111,7 @@ export const Navbar = () => {
       <ul className="flex-grow">
         <Tabs
           aria-label="Tabs colors"
+          className="nextUINavbar__tabs"
           classNames={{
             tabList: "gap-4 border-divider",
             cursor: "w-full bg-navbarCursor",

@@ -35,13 +35,13 @@ export default function Projects() {
     <section className="text-center " id="projects">
       <h1 className={title()}>Meus</h1>
       <h1 className={title({ color: "blue" })}> projetos</h1>
-      <ul className="flex justify-evenly flex-wrap items-center mt-10 gap-10 md:gap-8">
+      <ul className="projects__list flex justify-evenly flex-wrap items-center mt-10 gap-10 md:gap-8">
         {projects.map((project: ProjectProps) => {
           return (
             <Card
               key={project.id}
               isFooterBlurred
-              className="min-w-96 h-[400px] col-span-12 sm:col-span-5 projects__card shadow-purple-200"
+              className=" projects__card h-[400px] col-span-12 sm:col-span-5 shadow-purple-200"
             >
               <CardHeader className="pb-2 pt-2 px-4 flex relative  justify-between items-start z-20 projects__card-header">
                 <div className="flex flex-col justify-between text-start w-full">

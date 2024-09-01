@@ -15,7 +15,7 @@ export default function About() {
         <div className={title({ color: "yellow" })}> mim</div>
       </h1>
 
-      <div className="flex justify-between mt-20 ">
+      <div className="about__content flex justify-between items-center flex-wrap mt-20 ">
         <div className="about__text-content">
           <p className="text-start mb-4">
             Sempre gostei de realizar diversas atividades desde a infância como

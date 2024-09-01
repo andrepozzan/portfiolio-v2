@@ -9,9 +9,9 @@ import "./styles.css";
 
 export default function SectionTransition() {
   return (
-    <div className="sectionTransition w-full outline rounded-lg p-10 outline-primary-100 mb-20 mt-36 outline-8 hover:outline-green-500 transition-all delay-100">
-      <ul className="flex justify-between flex-wrap text-center align-top">
-        <li className=" p-4 flex flex-col justify-center items-center w-1/4">
+    <div className="sectionTransition outline rounded-lg outline-primary-100 mb-20 outline-8 hover:outline-green-500 transition-all delay-100">
+      <ul className="sectionTransition__list  items-center justify-between flex-wrap text-center align-top ">
+        <li className="sectionTransition__list-item p-4 flex flex-col justify-center items-center ">
           <PersonFill className="w-20 h-20" />
           <h3 className={title({ color: "yellow", size: "ssm" })}>Sobre mim</h3>
           <p className="flex-grow">
@@ -20,7 +20,7 @@ export default function SectionTransition() {
             mais variados tipos de ferramentas e tecnologias.
           </p>
         </li>
-        <li className=" p-4 flex flex-col justify-center items-center w-1/4">
+        <li className="sectionTransition__list-item p-4 flex flex-col justify-center items-center ">
           <School className="w-20 h-20" />
           <h3 className={title({ color: "blue", size: "ssm" })}>
             Universidade
@@ -31,7 +31,7 @@ export default function SectionTransition() {
             optando por mudar de cidade e cursar na UFPR.
           </p>
         </li>
-        <li className=" p-4 flex flex-col justify-center items-center w-1/4">
+        <li className="sectionTransition__list-item p-4 flex flex-col justify-center items-center ">
           <Rocket className="w-20 h-20" />
           <h3 className={title({ color: "green", size: "ssm" })}>Carreira</h3>
           <p className="flex-grow">

@@ -9,10 +9,40 @@
 }
 
 .contact__email-link a {
-  line-height: 4rem;
+  line-height: 4.2rem;
   transition: 200ms;
 }
 
 .contact__email-link a:hover {
-  text-shadow: 0 0 10px #84aecc;
+  text-shadow: 0 0 10px #ffffff;
+}
+
+@media screen and (min-width: 0px) {
+  .contact__email-link a {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 375px) {
+}
+
+@media screen and (min-width: 500px) {
+   .contact__email-link a {
+  font-size: 2.2rem;
+}
+}
+
+@media screen and (min-width: 768px) {
+  .contact__email-link a {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .contact__email-link a {
+    font-size: 3.5rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
 }

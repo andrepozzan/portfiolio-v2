@@ -14,7 +14,7 @@ export default function Skills() {
         <div className={title({ color: "blue" })}> habilidades</div>
       </h1>
       <ul className="skills__list mt-16">
-        <li className="col-start-1 row-start-1">
+        <li className="skills__list-item--devops">
           <h3 className={title({ size: "ssm" })}>DevOps</h3>
           <div className="flex justify-evenly flex-wrap mt-8 skills__list-item">
             <img
@@ -43,7 +43,7 @@ export default function Skills() {
             />
           </div>
         </li>
-        <li className="col-start-2 row-start-1">
+        <li className="skills__list-item--web">
           <h3 className={title({ size: "ssm" })}>Web</h3>
           <div className="flex justify-evenly flex-wrap mt-8 skills__list-item">
             <img
@@ -102,7 +102,7 @@ export default function Skills() {
             <img alt="" src="/assets/skills/strapi.svg" />
           </div>
         </li>
-        <li className="col-start-3 row-start-1">
+        <li className="skills__list-item--design">
           <h3 className={title({ size: "ssm" })}>
             Design e produção Audiovisual
           </h3>
@@ -124,7 +124,7 @@ export default function Skills() {
             />
           </div>
         </li>
-        <li className="col-start-1 row-start-2">
+        <li className="skills__list-item--engineering">
           <h3 className={title({ size: "ssm" })}>Engenharia e 3D</h3>
           <div className="flex justify-evenly flex-wrap mt-8 skills__list-item">
             <img
@@ -139,7 +139,7 @@ export default function Skills() {
             <img alt="" src="/assets/skills/librecad.png" />
           </div>
         </li>
-        <li className="col-start-2 row-start-2">
+        <li className="skills__list-item--projects-manager">
           <h3 className={title({ size: "ssm" })}>Gerenciamento de Projeto</h3>
           <div className="flex justify-evenly items-center mt-8 skills__list-item">
             <img
@@ -155,7 +155,7 @@ export default function Skills() {
             />
           </div>
         </li>
-        <li className="col-start-3 row-start-2">
+        <li className="skills__list-item--others">
           <h3 className={title({ size: "ssm" })}>Outros</h3>
           <div className="flex justify-evenly items-center mt-8 skills__list-item">
             <img alt="" className="bigger" src="/assets/skills/qgis.svg" />

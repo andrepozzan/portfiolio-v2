@@ -1,8 +1,5 @@
 .skills__list {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  gap: 4rem;
 }
 
 .skills__list-item img {
@@ -22,4 +19,62 @@
 
 .skills__list-item {
   flex-wrap: wrap;
+}
+
+.skills__list-item--devops {
+  grid-area: devops;
+}
+
+.skills__list-item--web {
+  grid-area: web;
+}
+
+.skills__list-item--design {
+  grid-area: design;
+}
+
+.skills__list-item--engineering {
+  grid-area: engineering;
+}
+
+.skills__list-item--project-manager {
+  grid-area: project-manager;
+}
+
+.skills__list-item--others {
+  grid-area: others;
+}
+
+/* To copy */
+
+@media screen and (min-width: 0px) {
+  .skills__list {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    gap: 4rem;
+
+    grid-template-areas: "devops" "web" "design" "engineering" "project-manager" "others";
+  }
+}
+
+@media screen and (min-width: 375px) {
+}
+
+@media screen and (min-width: 425px) {
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 1024px) {
+}
+
+@media screen and (min-width: 1440px) {
+  .skills__list {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 4rem;
+
+    grid-template-areas: "devops web design" "engineering project-manager others";
+  }
 }
