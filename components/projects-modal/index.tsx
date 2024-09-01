@@ -33,15 +33,16 @@ export default function ModalComponent(data: any) {
       </Button>
       <Modal
         backdrop={"opaque"}
-        className="meuModal"
+        className="projects-modal"
         isOpen={isOpen}
+        scrollBehavior={"inside"}
         size="5xl"
         onOpenChange={onOpenChange}
       >
         <ModalContent>
           {(onClose) => (
             <>
-              <ModalHeader className="flex justify-between gap-1 px-8">
+              <ModalHeader className="projects-modal__header flex justify-between gap-1 px-8">
                 <div className="flex flex-col gap-1">
                   <small className="text-default-500 uppercase">
                     {data.project.technologies}
@@ -114,31 +115,30 @@ export default function ModalComponent(data: any) {
                   </ul>
                 </div>
               </ModalHeader>
-              <ModalBody className="flex flex-row">
-                {data.project.videoLink != "" ? (
-                  <iframe
-                    allowFullScreen
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    className="w-full h-96 rounded-large"
-                    referrerPolicy="strict-origin-when-cross-origin"
-                    src={data.project.videoLink}
-                    title="YouTube video player"
-                  />
-                ) : data.project.modalImageLink != "" ? (
-                  <div className="projects-modal__image-crop max-h-96 overflow-hidden rounded-lg">
-                    <Image
-                      isBlurred
-                      removeWrapper
-                      alt={data.project.title}
-                      className="projects-modal__image"
-                      src={data.project.modalImageLink}
+              <ModalBody className="projects-modal__body flex flex-row">
+                <div>
+                  {data.project.videoLink != "" ? (
+                    <iframe
+                      allowFullScreen
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      className="w-full h-96 rounded-large"
+                      referrerPolicy="strict-origin-when-cross-origin"
+                      src={data.project.videoLink}
+                      title="YouTube video player"
                     />
-                  </div>
-                ) : null}
-
-                {}
-
-                <p className="max-w-96 ml-8">{data.project.description}</p>
+                  ) : data.project.modalImageLink != "" ? (
+                    <div className="projects-modal__image-crop rounded-lg">
+                      <Image
+                        isBlurred
+                        removeWrapper
+                        alt={data.project.title}
+                        className="projects-modal__image"
+                        src={data.project.modalImageLink}
+                      />
+                    </div>
+                  ) : null}
+                  <p className="projects-modal__body-text">{data.project.description}</p>
+                </div>
               </ModalBody>
               <ModalFooter>
                 <Button color="danger" variant="light" onPress={onClose}>

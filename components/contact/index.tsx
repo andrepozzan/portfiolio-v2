@@ -4,7 +4,7 @@ import { siteConfig } from "@/config/site";
 
 export default function Contact() {
   return (
-    <section className="h-screen text-center mt-24" id="contact">
+    <section className=" text-center mt-24" id="contact">
       <h1>
         <div className={title()}>Entre em</div>
         <div className={title({ color: "cyan" })}> contato</div>

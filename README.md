@@ -3,15 +3,15 @@
 ## Development tasks
 
 - [x] Navbar development
-- [ ] Navbar responsive(open/close)
+- [x] Navbar responsive(open/close)
 - [x] Navbar tab active in current section
 
 - [x] Introduction section
 - [x] Introduction responsive
-- [ ] Add animations on introduction
+- [-] Add animations on introduction
 
 - [x] Transitions components
-- [ ] Transitions responsive
+- [x] Transitions responsive
 
 - [x] Projects section
 - [ ] Projects responsive
@@ -20,13 +20,13 @@
 - [ ] Awards responsive
 
 - [x] About me section
-- [ ] About responsive
+- [x] About responsive
 
 - [x] My skills section
-- [ ] My skills responsive
+- [x] My skills responsive
 
 - [x] Contact section
-- [ ] Contact responsive
+- [x] Contact responsive
 
 - [ ] Publish the project
 

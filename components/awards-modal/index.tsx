@@ -53,7 +53,7 @@ export default function AwardsModal(data: any) {
                   isBlurred
                   removeWrapper
                   alt={data.award.title}
-                  className="max-w-3xl"
+                  className="w-full max-w-3xl"
                   src={data.award.imageLink}
                 />
                 <p className="max-w-96 ml-8">{data.award.description}</p>
