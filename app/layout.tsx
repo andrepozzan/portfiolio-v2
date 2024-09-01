@@ -1,6 +1,5 @@
 import "@/styles/globals.css";
 import { Metadata, Viewport } from "next";
-import { Link } from "@nextui-org/link";
 import clsx from "clsx";
 
 import { Providers } from "./providers";
@@ -46,15 +45,21 @@ export default function RootLayout({
           <div className="relative flex flex-col h-screen">
             <main className="w-full flex-grow">{children}</main>
             <footer className="w-full flex items-center justify-center py-3">
-              <Link
-                isExternal
-                className="flex items-center gap-1 text-current"
-                href={siteConfig.links.instagram}
-                title="nextui.org homepage"
-              >
-                <span className="text-default-600">Feito por</span>
-                <p className="text-primary">André Corso Pozzan</p>
-              </Link>
+              <p className="flex">
+                Website desenvolvido por
+                <a
+                  className="ml-4"
+                  href="https://www.instagram.com/andrepozzan.eng/"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt=""
+                    className="w-32"
+                    src="https://raw.githubusercontent.com/andrepozzan/andrepozzan/main/assets/img/ap-design-kit/aplogo-footer-min.svg"
+                  />
+                </a>
+              </p>
             </footer>
           </div>
         </Providers>

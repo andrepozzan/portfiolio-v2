@@ -19,10 +19,6 @@
   background-repeat: no-repeat;
 }
 
-.introduction__profile-picture img {
-  max-height: 90vh;
-}
-
 .introduction__background-overlay {
   z-index: 10;
   position: relative;
@@ -69,7 +65,6 @@
 }
 
 .introduction__divider {
-  /* From https://css.glass */
   background: hsl(var(--nextui-background));
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -105,4 +100,173 @@
 
 .introduction__divider .textAnimation {
   animation: slideIn 30s infinite linear;
+}
+
+#introduction {
+  padding-top: 4rem;
+}
+
+@media screen and (min-width: 0px) {
+  #introduction {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .introduction__profile-picture {
+    width: 100%;
+  }
+  .introduction__profile-picture img {
+    width: 30rem;
+  }
+  .introduction__logo {
+    width: 12rem;
+    height: 12rem;
+  }
+
+  .introduction__text-content {
+    width: 100%;
+    padding: 0 1.5rem;
+  }
+
+  .introduction__text-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-bottom: 2rem;
+  }
+
+  .introduction__text-content-title .title {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .introduction__profile-picture {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 850px) {
+  .introduction__profile-picture {
+    width: 85%;
+  }
+  .introduction__profile-picture img {
+    width: 35rem;
+  }
+  .introduction__logo {
+    width: 15rem;
+    height: 15rem;
+  }
+
+  .introduction__text-content {
+    width: 70%;
+    margin-bottom: 4rem;
+  }
+
+  .introduction__text-content-title .title {
+    font-size: 2.7rem;
+  }
+}
+
+@media screen and (min-width: 1030px) {
+  .introduction__profile-picture {
+    width: 70%;
+  }
+  .introduction__profile-picture img {
+    width: 33rem;
+  }
+}
+
+@media screen and (min-width: 1220px) {
+  .introduction__profile-picture {
+    width: 55%;
+  }
+  .introduction__profile-picture img {
+    width: 30rem;
+  }
+}
+
+@media screen and (min-width: 1430px) {
+  #introduction {
+    flex-direction: row;
+    text-align: inherit;
+  }
+
+  .introduction__profile-picture {
+    width: 35%;
+  }
+
+  .introduction__profile-picture img {
+    width: 23rem;
+  }
+
+  .introduction__text-content {
+    display: inline-block;
+    width: 37%;
+  }
+
+  .introduction__logo {
+    width: 12rem;
+    height: 12rem;
+  }
+
+  .introduction__text-content-subtitle {
+    text-indent: 3rem;
+  }
+}
+
+@media screen and (min-width: 1520px) {
+  .introduction__profile-picture {
+    width: 42%;
+  }
+
+  .introduction__profile-picture img {
+    width: 28rem;
+  }
+
+  .introduction__text-content {
+    width: 40%;
+  }
+
+  .introduction__logo {
+    width: 15rem;
+    height: 15rem;
+  }
+}
+
+@media screen and (min-width: 1650px) {
+  #introduction {
+    padding-top: 0;
+  }
+
+  .introduction__profile-picture {
+    width: 45%;
+  }
+
+  .introduction__profile-picture img {
+    width: 30rem;
+  }
+
+  .introduction__text-content {
+    width: 45%;
+  }
+}
+
+@media screen and (min-width: 1810px) {
+  .introduction__profile-picture {
+    width: 100%;
+  }
+
+  .introduction__profile-picture img {
+    width: 38.6rem;
+  }
+  .introduction__text-content {
+    width: 70%;
+  }
+
+  .introduction__logo {
+    width: 20rem;
+    height: 20rem;
+  }
 }

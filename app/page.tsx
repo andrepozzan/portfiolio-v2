@@ -34,16 +34,14 @@ export default function Home() {
           type="video/mp4"
         />
       </video>
-      <div
-        className="introduction__divider w-full left-0 opacity-50 h-24 bg-divider absolute shadow-2xl"
-        style={{ top: "90vh" }}
-      >
-        <Chip className="textAnimation" color="primary" variant="dot">
-          André Corso Pozzan - Engenharia elétrica UFPR
-        </Chip>
-      </div>
+
       <div className="introduction__background-overlay">
         <Introduction />
+        <div className="introduction__divider w-full left-0 opacity-50 h-24 bg-divider shadow-2xl">
+          <Chip className="textAnimation" color="primary" variant="dot">
+            André Corso Pozzan - Engenharia elétrica UFPR
+          </Chip>
+        </div>
       </div>
       <SectionTransition />
       <Projects />

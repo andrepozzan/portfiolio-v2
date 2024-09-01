@@ -169,6 +169,16 @@ export default function Skills() {
               alt=""
               src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/arduino/arduino-original.svg"
             />
+
+            <img
+              alt=""
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg"
+            />
+
+            <img
+              alt=""
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
+            />
           </div>
         </li>
       </ul>

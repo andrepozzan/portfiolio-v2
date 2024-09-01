@@ -7,19 +7,26 @@
 - [x] Navbar tab active in current section
 
 - [x] Introduction section
+- [x] Introduction responsive
 - [ ] Add animations on introduction
 
 - [x] Transitions components
+- [ ] Transitions responsive
 
 - [x] Projects section
+- [ ] Projects responsive
 
 - [x] Awards section
+- [ ] Awards responsive
 
 - [x] About me section
+- [ ] About responsive
 
-- [ ] My skills section
+- [x] My skills section
+- [ ] My skills responsive
 
-- [ ] Contact section
+- [x] Contact section
+- [ ] Contact responsive
 
 - [ ] Publish the project
 

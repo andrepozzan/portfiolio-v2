@@ -10,16 +10,16 @@ import { siteConfig } from "@/config/site";
 export default function Introduction() {
   return (
     <section
-      className="flex flex-col md:flex-row justify-center items-center w-full"
+      className="flex justify-center items-center w-full"
       id="introduction"
     >
-      <div className="w-3/4">
-        <h1 className=" ">
-          <div className={title({ color: "yellow" })}>
+      <div className="introduction__text-content">
+        <h1 className="introduction__text-content-title">
+          <div className={title({ color: "yellow" }) + " title"}>
             ⚡Engenharia Elétrica⚡
           </div>
           <br />
-          <div className="indent-12">
+          <div className="introduction__text-content-subtitle">
             <div className={title({ size: "sm" })}>Discente na </div>
             <div className={title({ color: "blue", size: "sm" })}>UFPR</div>
           </div>
@@ -36,19 +36,21 @@ export default function Introduction() {
           expandir meus conhecimentos teóricos na prática.
         </p>
 
-        <div className="introduction__logo w-80 h-80 mt-5 rounded-3xl" />
-        <a href="#projects">
-          <Button className="mt-8" color="primary" variant="shadow">
-            Meus projetos
-          </Button>
-        </a>
-        <a href={"mailto:" + siteConfig.links.email}>
-          <Button className="mt-8 ml-4" color="primary" variant="bordered">
-            Entre em contato
-          </Button>
-        </a>
+        <div className="introduction__logo mt-5 rounded-3xl" />
+        <div>
+          <a href="#projects">
+            <Button className="mt-8" color="primary" variant="shadow">
+              Meus projetos
+            </Button>
+          </a>
+          <a href={"mailto:" + siteConfig.links.email}>
+            <Button className="mt-8 ml-4" color="primary" variant="bordered">
+              Entre em contato
+            </Button>
+          </a>
+        </div>
       </div>
-      <div className="introduction__profile-picture w-full flex justify-center flex-grow">
+      <div className="introduction__profile-picture flex justify-center">
         <Image
           isBlurred
           alt="Foto de perfil de André Corso Pozzan"

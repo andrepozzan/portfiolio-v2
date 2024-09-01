@@ -10,11 +10,11 @@ import { Button } from "@nextui-org/button";
 import { Image } from "@nextui-org/image";
 import { Github, Linkedin } from "@styled-icons/bootstrap";
 import { BrowserOutline } from "@styled-icons/evaicons-outline";
+import { Chip } from "@nextui-org/chip";
 
 import { title } from "@/components/primitives";
 
 import "./styles.css";
-import { Chip } from "@nextui-org/chip";
 
 export default function ModalComponent(data: any) {
   const { isOpen, onOpen, onOpenChange } = useDisclosure();
