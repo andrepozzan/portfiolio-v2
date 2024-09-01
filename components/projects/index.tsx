@@ -17,8 +17,7 @@ export default function Projects() {
   useEffect(() => {
     fetch("/data/projects.json")
       .then((response) => response.json())
-      .then((data) => setProjects(data))
-      .catch((error) => console.error(error));
+      .then((data) => setProjects(data));
   }, []);
 
   type ProjectProps = {

@@ -46,7 +46,7 @@
   .projects-modal__body iframe {
     overflow: hidden;
     max-height: 25rem;
-    width: 200rem;
+    width: 30rem;
   }
   .projects-modal__spacer {
     margin-left: 1rem;

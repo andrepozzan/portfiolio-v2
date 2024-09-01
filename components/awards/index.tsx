@@ -16,8 +16,7 @@ export default function Awards() {
   useEffect(() => {
     fetch("/data/awards.json")
       .then((response) => response.json())
-      .then((data) => setAwards(data))
-      .catch((error) => console.error(error));
+      .then((data) => setAwards(data));
   }, []);
 
   type AwardsProps = {
