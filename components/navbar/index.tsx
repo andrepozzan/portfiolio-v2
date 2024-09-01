@@ -1,9 +1,10 @@
 "use client";
-
+import React from "react";
 import {
   Navbar as NextUINavbar,
   NavbarBrand,
   NavbarItem,
+  NavbarMenuToggle,
 } from "@nextui-org/navbar";
 import { Link } from "@nextui-org/link";
 import NextLink from "next/link";
@@ -27,6 +28,26 @@ import { ThemeSwitch } from "@/components/theme-switch";
 import "./styles.css";
 
 export const Navbar = () => {
+  const [isMenuOpen, setIsMenuOpen] = React.useState(false);
+
+  useEffect(() => {
+    const menuElements = document.querySelectorAll(".nextUINavBar__item-text");
+
+    if (isMenuOpen) {
+      document.body.classList.add("menu-open");
+
+      menuElements.forEach((element) => {
+        element.setAttribute("data-animations", "to-right--active");
+      });
+    } else {
+      document.body.classList.remove("menu-open");
+
+      menuElements.forEach((element) => {
+        element.setAttribute("data-animations", "to-right");
+      });
+    }
+  }, [isMenuOpen]);
+
   const handleSelectionChange = (key: string) => {
     const element = document.querySelector(`[id="${key}"]`);
 
@@ -71,15 +92,23 @@ export const Navbar = () => {
 
   return (
     <NextUINavbar
-      className="nextUiNavbar fixed left-8 top-1/2 transform -translate-y-1/2 h-3/4 w-20 inline-block rounded-large z-50"
+      className="nextUiNavbar fixed left-8 top-1/2 transform -translate-y-1/2  rounded-large z-50"
+      isMenuOpen={isMenuOpen}
       maxWidth="xl"
     >
       <NavbarBrand as="li" className="grow-0">
         <NextLink href="#introduction">
-          <div className="nextUINavbar__logo w-12 h-10 bg-contain" />
+          <div className="nextUINavbar__logo bg-contain" />
         </NextLink>
       </NavbarBrand>
-      <ul className="lg:flex gap-6 justify-start flex flex-col">
+      <NavbarMenuToggle
+        aria-label={isMenuOpen ? "Close menu" : "Open menu"}
+        className="nextUINavbar__menu-toggle"
+        onClick={() => {
+          setIsMenuOpen(!isMenuOpen);
+        }}
+      />
+      <ul className="flex-grow">
         <Tabs
           aria-label="Tabs colors"
           classNames={{
@@ -96,12 +125,14 @@ export const Navbar = () => {
           {siteConfig.navItems.map((item) => (
             <Tab
               key={item.id}
+              className="nextUINavbar__item-tab"
               title={
                 <NavbarItem
                   key={item.id}
                   className={clsx(
                     linkStyles({ color: "foreground" }),
                     "data-[active=true]:text-primary data-[active=true]:font-medium",
+                    "nextUINavbar__navbar-item",
                   )}
                 >
                   <div className="nextUINavbar__icon w-8 h-8">
@@ -119,6 +150,14 @@ export const Navbar = () => {
                       <TelephoneFill className="w-6 h-6" />
                     ) : null}
                   </div>
+                  {isMenuOpen && (
+                    <div
+                      className="ml-4 nextUINavBar__item-text"
+                      data-animations="to-right"
+                    >
+                      {item.label}
+                    </div>
+                  )}
                 </NavbarItem>
               }
             />
@@ -126,16 +165,27 @@ export const Navbar = () => {
         </Tabs>
       </ul>
 
-      <NavbarItem className="gap-4 flex flex-col box-border ">
-        <Link isExternal aria-label="Linkedin" href={siteConfig.links.linkedin}>
+      <NavbarItem className="nextUINavbar__social-media-links gap-4 box-border ">
+        <Link
+          isExternal
+          aria-label="Linkedin"
+          className="link"
+          href={siteConfig.links.linkedin}
+        >
           <Linkedin className="text-default-500" />
         </Link>
-        <Link isExternal aria-label="Github" href={siteConfig.links.github}>
+        <Link
+          isExternal
+          aria-label="Github"
+          className="link"
+          href={siteConfig.links.github}
+        >
           <Github className="text-default-500" />
         </Link>
         <Link
           isExternal
           aria-label="Instagram"
+          className="link"
           href={siteConfig.links.instagram}
         >
           <Instagram className="text-default-500" />

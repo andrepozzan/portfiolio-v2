@@ -1,9 +1,29 @@
+.nextUiNavbar {
+  display: flex;
+  width: inherit;
+  box-sizing: border-box;
+  width: 5rem;
+}
+
 .nextUiNavbar header {
   display: flex;
   flex-direction: column;
-  width: inherit;
   height: 100%;
-  padding: 3rem 0;
+  padding: 3rem 1.2rem;
+  transition: all 200ms;
+  align-items: center;
+}
+
+.nextUINavbar__logo {
+  width: 3rem;
+  height: 2.5rem;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.menu-open .nextUINavbar__logo {
+  width: 6rem;
+  height: 6rem;
 }
 
 .nextUiNavbar.rounded-large {
@@ -34,6 +54,37 @@
   background-image: url("/assets/logo/aplogo-profile-dark-navbar.svg");
 }
 
-Tabs {
-  background: red;
+.nextUINavbar__social-media-links {
+  display: flex;
+  flex-direction: column;
+  margin-top: .8rem;
+}
+
+.nextUINavbar__social-media-links .link {
+  width: 1.4rem;
+}
+
+.menu-open .nextUINavbar__social-media-links {
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.nextUINavbar__menu-toggle {
+  display: inline-block;
+  height: 3rem;
+  width: 3rem;
+  box-sizing: border-box;
+}
+
+.menu-open .nextUiNavbar {
+  width: 16rem;
+  padding-left: 0;
+}
+
+.menu-open .nextUINavbar__item-tab {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }

@@ -32,3 +32,55 @@ section,
 
 @media screen and (min-width: 1440px) {
 }
+
+* {
+  --transition-15: 500ms;
+}
+
+[data-animations="to-top--active"] {
+  transition: var(--transition-15);
+  transform: translateY(0);
+  opacity: 1;
+}
+
+[data-animations="to-top"] {
+  transition: var(--transition-15);
+  transform: translateY(10rem);
+  opacity: 0;
+}
+
+[data-animations="to-bottom--active"] {
+  transition: var(--transition-15);
+  transform: translateY(0);
+  opacity: 1;
+}
+
+[data-animations="to-bottom"] {
+  transition: var(--transition-15);
+  transform: translateY(-10rem);
+  opacity: 0;
+}
+
+[data-animations="to-left--active"] {
+  transition: var(--transition-15);
+  transform: translateX(0);
+  opacity: 1;
+}
+
+[data-animations="to-left"] {
+  transition: var(--transition-15);
+  transform: translateX(10rem);
+  opacity: 0;
+}
+
+[data-animations="to-right--active"] {
+  transition: var(--transition-15);
+  transform: translateX(0);
+  opacity: 1;
+}
+
+[data-animations="to-right"] {
+  transition: var(--transition-15);
+  transform: translateX(-10rem);
+  opacity: 0;
+}
