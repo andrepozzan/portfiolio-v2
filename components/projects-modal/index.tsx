@@ -35,7 +35,6 @@ export default function ModalComponent(data: any) {
         backdrop={"opaque"}
         className="projects-modal"
         isOpen={isOpen}
-        scrollBehavior={"inside"}
         size="5xl"
         onOpenChange={onOpenChange}
       >
@@ -115,30 +114,31 @@ export default function ModalComponent(data: any) {
                   </ul>
                 </div>
               </ModalHeader>
-              <ModalBody className="projects-modal__body flex flex-row">
-                <div>
-                  {data.project.videoLink != "" ? (
+              <ModalBody className="projects-modal__body flex">
+                {data.project.videoLink != "" ? (
+                  <div>
                     <iframe
                       allowFullScreen
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      className="w-full h-96 rounded-large"
+                      className=" rounded-large"
                       referrerPolicy="strict-origin-when-cross-origin"
                       src={data.project.videoLink}
                       title="YouTube video player"
                     />
-                  ) : data.project.modalImageLink != "" ? (
-                    <div className="projects-modal__image-crop rounded-lg">
-                      <Image
-                        isBlurred
-                        removeWrapper
-                        alt={data.project.title}
-                        className="projects-modal__image"
-                        src={data.project.modalImageLink}
-                      />
-                    </div>
-                  ) : null}
-                  <p className="projects-modal__body-text">{data.project.description}</p>
-                </div>
+                  </div>
+                ) : data.project.modalImageLink != "" ? (
+                  <div className="projects-modal__image-crop rounded-lg">
+                    <Image
+                      isBlurred
+                      removeWrapper
+                      alt={data.project.title}
+                      className="projects-modal__image"
+                      src={data.project.modalImageLink}
+                    />
+                  </div>
+                ) : null}
+                <div className="projects-modal__spacer" />
+                {data.project.description}
               </ModalBody>
               <ModalFooter>
                 <Button color="danger" variant="light" onPress={onClose}>

@@ -11,7 +11,6 @@
     "imageLink": "/assets/projects/modal-image/gcu-com-br-card.png",
     "modalImageLink": "/assets/projects/modal-image/gcu-com-br.png",
     "videoLink": "",
-    "buttonText": "Visit Website",
     "technologies": "design | html | css | javascript"
   },
   {
@@ -26,7 +25,6 @@
     "imageLink": "https://user-images.githubusercontent.com/85946447/167709332-2d0d25c8-852b-477c-9e46-f4f53a2302b5.jpg",
     "modalImageLink": "/assets/projects/modal-image/andrepozzan-github-io.png",
     "videoLink": "",
-    "buttonText": "Visit Website",
     "technologies": "design | html | css | javascript"
   },
 
@@ -42,7 +40,6 @@
     "imageLink": "https://images.unsplash.com/photo-1719932124314-8b6acaf60104?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "modalImageLink": "",
     "videoLink": "https://www.youtube.com/embed/lyY1uE_-fcg?si=IYs_Yu93DbQwMRMc",
-    "buttonText": "Visit Website",
     "technologies": "devops | strapi | reactjs&nextjs | postgreesql"
   },
   {
@@ -57,7 +54,6 @@
     "imageLink": "/assets/projects/modal-image/tv-online.png",
     "modalImageLink": "/assets/projects/modal-image/tv-online.png",
     "videoLink": "",
-    "buttonText": "Visit Website",
     "technologies": "nodejs | json | fetch api | html | css | javascript"
   },
   {
@@ -72,7 +68,6 @@
     "imageLink": "/assets/projects/cards-image/iluminacao-natal-2021.jpg",
     "modalImageLink": "",
     "videoLink": "https://www.youtube-nocookie.com/embed/Q8By5YC9b7k?si=xFKfknjzGWmC9Xcu",
-    "buttonText": "Visit Website",
     "technologies": "vixen lights | arduino | eletrônica"
   },
   {
@@ -87,7 +82,6 @@
     "imageLink": "/assets/projects/cards-image/iluminacao-teclado-v1.jpg",
     "modalImageLink": "",
     "videoLink": "https://www.youtube.com/embed/J_cXa-4anME?si=6KJ2Okn932k1Qzjyu",
-    "buttonText": "Visit Website",
     "technologies": "midi | arduino | eletrônica | música | protótipo"
   },
   {
@@ -98,11 +92,10 @@
     "description": "",
     "websiteLink": "https://www.example.com",
     "githubLink": "",
-    "linkedinLink": "https://www.linkedin.com",
-    "imageLink": "https://images.unsplash.com/photo-1511447333015-45b65e60f6d5?q=80&w=2155&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "modalImageLink": "/assets/projects/modal-image/andrepozzan-github-io.png",
+    "linkedinLink": "",
+    "imageLink": "",
+    "modalImageLink": "",
     "videoLink": "",
-    "buttonText": "Visit Website",
     "technologies": "design | html | css | javascript"
   }
 ]

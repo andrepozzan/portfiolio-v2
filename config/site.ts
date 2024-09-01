@@ -5,32 +5,32 @@ export const siteConfig = {
   description: "Electrical Engineer and Full Stack Developer",
   navItems: [
     {
-      label: "Introduction",
+      label: "Introdução",
       id: "introduction",
       icon: "Home",
     },
     {
-      label: "My Projects",
+      label: "Meus Projetos",
       id: "projects",
       icon: "Work",
     },
     {
-      label: "My Certifications",
+      label: "Meus Certificados",
       id: "awards",
       icon: "EmojiEvents",
     },
     {
-      label: "About me",
+      label: "Sobre mim",
       id: "about",
       icon: "PersonFill",
     },
     {
-      label: "My Skills ans Tools",
+      label: "Minhas habilidades",
       id: "skills",
       icon: "Tools",
     },
     {
-      label: "Contact",
+      label: "Contato",
       id: "contact",
       icon: "TelephoneFill",
     },
