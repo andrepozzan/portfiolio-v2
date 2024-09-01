@@ -93,6 +93,7 @@ export const Navbar = () => {
   return (
     <NextUINavbar
       className="nextUiNavbar fixed left-8 top-1/2 transform -translate-y-1/2  rounded-large z-50"
+      id="nextUiNavbar"
       isMenuOpen={isMenuOpen}
       maxWidth="xl"
     >

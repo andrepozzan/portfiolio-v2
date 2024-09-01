@@ -14,10 +14,10 @@
 - [x] Transitions responsive
 
 - [x] Projects section
-- [ ] Projects responsive
+- [x] Projects responsive
 
 - [x] Awards section
-- [ ] Awards responsive
+- [x] Awards responsive
 
 - [x] About me section
 - [x] About responsive

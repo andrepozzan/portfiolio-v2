@@ -5,6 +5,9 @@
 /.pnp
 .pnp.js
 
+/config/secrets.ts
+secrets.ts
+
 # testing
 /coverage
 
