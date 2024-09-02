@@ -1,36 +1,6 @@
 # This website is under development, this is not the final version
 
-## Development tasks
-
-- [x] Navbar development
-- [x] Navbar responsive(open/close)
-- [x] Navbar tab active in current section
-
-- [x] Introduction section
-- [x] Introduction responsive
-- [-] Add animations on introduction
-
-- [x] Transitions components
-- [x] Transitions responsive
-
-- [x] Projects section
-- [x] Projects responsive
-
-- [x] Awards section
-- [x] Awards responsive
-
-- [x] About me section
-- [x] About responsive
-
-- [x] My skills section
-- [x] My skills responsive
-
-- [x] Contact section
-- [x] Contact responsive
-
-- [ ] Publish the project
-
-## Technologies Used
+## Technologies Used <img width="80px" height="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" /><img width="80px"  height="50px"  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" /><img width="80px"  height="50px"  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" /><img width="80px"  height="50px"  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" /><img width="80px"  height="50px"  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" />
 
 - [Next.js 14](https://nextjs.org/docs/getting-started)
 - [NextUI v2](https://nextui.org/)
@@ -39,6 +9,14 @@
 - [TypeScript](https://www.typescriptlang.org/)
 - [Framer Motion](https://www.framer.com/motion/)
 - [next-themes](https://github.com/pacocoursey/next-themes)
+
+
+
+## Development tasks
+
+- Add all te projects to projects section
+- A refactoring is necessary to migrate the files of "styles.css" to "styles.ts", using the styled components method
+- Add test methods to the components
 
 ## How to Use
 
