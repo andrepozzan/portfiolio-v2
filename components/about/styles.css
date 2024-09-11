@@ -1,7 +1,7 @@
 .about__photos-grid {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
-  grid-template-rows: repeat(5, auto);
+  grid-template-rows: repeat(6, auto);
 
   gap: 1rem;
 }
@@ -26,6 +26,10 @@
     max-width: 95vw;
     margin: 0 auto;
   }
+
+  .about__text-content {
+    padding: 0 2rem;
+  }
 }
 
 @media screen and (min-width: 375px) {
@@ -45,6 +49,10 @@
   .about__photos-grid,
   .about__text-content {
     max-width: 70vw;
+  }
+
+  .about__text-content {
+    padding: 0 0;
   }
 }
 

@@ -186,6 +186,7 @@ export default function About() {
               Segunda fase vestibular UFPR - Curitiba - PR (2023)
             </p>
           </div>
+          
           <div className="col-start-1 row-start-4 ">
             <Image
               isBlurred
@@ -216,6 +217,16 @@ export default function About() {
             <p className="text-tiny mt-3">
               Publicação no jornal Correio do Povo sobre o campeonato paranaense
               de xadrez - 2016
+            </p>
+          </div>
+          <div className="col-start-1 row-start-6 col-span-3">
+            <Image
+              isBlurred
+              className="w-full"
+              src="/assets/about/xadrez/medalhas.jpeg"
+            />
+            <p className="text-tiny mt-3">
+              Medalhas e troféus de xadrez conquistados
             </p>
           </div>
         </div>
