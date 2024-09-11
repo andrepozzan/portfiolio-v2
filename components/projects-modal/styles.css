@@ -46,8 +46,12 @@
   .projects-modal__body iframe {
     overflow: hidden;
     max-height: 25rem;
+  }
+
+  .projects-modal__body iframe {
     width: 30rem;
   }
+  
   .projects-modal__spacer {
     margin-left: 1rem;
     margin-top: 0;
@@ -56,6 +60,14 @@
   .projects-modal__header,
   .projects-modal__body {
     flex-direction: row;
+  }
+
+  .projects-modal__image-crop {
+    width: 100%;
+  }
+
+  .projects-modal__text {
+    max-width: 50%;
   }
 }
 

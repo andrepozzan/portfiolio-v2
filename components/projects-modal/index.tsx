@@ -138,7 +138,9 @@ export default function ModalComponent(data: any) {
                   </div>
                 ) : null}
                 <div className="projects-modal__spacer" />
-                {data.project.description}
+                <div className="projects-modal__text">
+                  {data.project.description}
+                </div>
               </ModalBody>
               <ModalFooter>
                 <Button color="danger" variant="light" onPress={onClose}>

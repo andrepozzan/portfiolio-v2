@@ -104,7 +104,7 @@ export const Navbar = () => {
       </NavbarBrand>
       <NavbarMenuToggle
         aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-        className="nextUINavbar__menu-toggle"
+        id="nextUINavbar__menu-toggle"
         onClick={() => {
           setIsMenuOpen(!isMenuOpen);
         }}
