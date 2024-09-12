@@ -52,7 +52,7 @@
     "githubLink": "https://github.com/andrepozzan/tv-online",
     "linkedinLink": "",
     "imageLink": "/assets/projects/modal-image/tv-online.png",
-    "modalImageLink": "/assets/projects/modal-image/tv-online.png",
+    "modalImageLink": "no-image",
     "videoLink": "",
     "technologies": "nodejs | json | fetch api | html | css | javascript"
   },
@@ -122,7 +122,7 @@
     "githubLink": "https://github.com/andrepozzan/matriz-generator",
     "linkedinLink": "",
     "imageLink": "/assets/projects/cards-image/matriz-generator.png",
-    "modalImageLink": "/assets/projects/cards-image/matriz-generator.png",
+    "modalImageLink": "no-image",
     "videoLink": "",
     "technologies": "design | html | css | javascript"
   }

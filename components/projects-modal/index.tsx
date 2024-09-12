@@ -127,13 +127,22 @@ export default function ModalComponent(data: any) {
                     />
                   </div>
                 ) : data.project.modalImageLink != "" ? (
-                  <div className="projects-modal__image-crop rounded-lg">
+                  <div className="projects-modal__image-crop rounded-lg ">
                     <Image
                       isBlurred
                       removeWrapper
                       alt={data.project.title}
                       className="projects-modal__image"
-                      src={data.project.modalImageLink}
+                      id={
+                        data.project.modalImageLink != "no-image"
+                          ? "projects-modal__image--hover"
+                          : ""
+                      }
+                      src={
+                        data.project.modalImageLink != "no-image"
+                          ? data.project.modalImageLink
+                          : data.project.imageLink
+                      }
                     />
                   </div>
                 ) : null}

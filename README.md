@@ -10,11 +10,8 @@
 - [Framer Motion](https://www.framer.com/motion/)
 - [next-themes](https://github.com/pacocoursey/next-themes)
 
-
-
 ## Development tasks
 
-- Add all te projects to projects section
 - A refactoring is necessary to migrate the files of "styles.css" to "styles.ts", using the styled components method
 - Add test methods to the components
 

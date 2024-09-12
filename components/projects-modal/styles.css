@@ -36,12 +36,13 @@
     max-height: 95vh;
   }
 
-  .projects-modal__image {
+  #projects-modal__image--hover {
     transition: transform 5000ms !important;
   }
-  .projects-modal__image:hover {
+  #projects-modal__image--hover:hover {
     transform: translateY(calc(-100% + 24rem));
   }
+
   .projects-modal__image-crop,
   .projects-modal__body iframe {
     overflow: hidden;
@@ -51,7 +52,7 @@
   .projects-modal__body iframe {
     width: 30rem;
   }
-  
+
   .projects-modal__spacer {
     margin-left: 1rem;
     margin-top: 0;
